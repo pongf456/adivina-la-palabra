@@ -19,12 +19,12 @@ class Word {
     constructor(word:string) {
         this.word = word.toUpperCase()
     }
-    // Funcion para comparar si la palabra del usuario coincide con la que tenemos
+    // Función para comparar si la palabra del usuario coincide con la que tenemos
     compare(other:string  | string[]):boolean {
         if(Array.isArray(other)) return other.join('').toUpperCase() === this.word
         return other.toUpperCase() === this.word
     }
-    // Funcion para generar una pista. (Cambia aleatoriamente letras de la palabra por espacios)
+    // Función para generar una pista. (Cambia aleatoriamente letras de la palabra por espacios)
     private clue(length:number) {
         let clueToReturn = this.splitted
         for (let i = 1; i <= length; i++) {
@@ -32,7 +32,7 @@ class Word {
         }
         return clueToReturn.join()
     }
-    // Funcion para obtener pista en base a el tipo de pista; 10%, 25% y 50% de pista
+    // Función para obtener pista en base a el tipo de pista; 10%, 25% y 50% de pista
     obtainClue(level:ClueLevels) {
         switch (level) {
             case ClueLevels.low:
