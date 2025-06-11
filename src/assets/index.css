@@ -23,21 +23,13 @@
   --font-color-secondary: var(--color-secondary-200); /* Color secundario para el texto */
   --font-color-tertiary: var(--color-secondary-300); /* Color terciario para texto de poca importancia */
   --font-color-on-dark: #FFFFFF; /* Color de texto para usar sobre fondos oscuros */
+  --font-inter: "Inter", sans-serif;
 }
 body {
     padding: 0;
     margin: 0;
     background-color: var(--background-color-light);
     display: flex;
-    justify-content: center;
     width: 100vw;
     height: 100vh;
-}
-
-span {
-  font-size: 2em;
-  padding: 1em;
-  color: var(--font-color-primary);
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: 600;
 }
