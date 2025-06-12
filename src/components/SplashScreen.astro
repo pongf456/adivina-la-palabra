@@ -1,22 +1,27 @@
+---
+import { Icon } from "astro-icon/components";
+---
+
 <div id="container">
   <div id="main-logo">
     <img src="/favicon.png" alt="Logo" />
     <span>Adivina La Palabra</span>
   </div>
+  <Icon name="mdi:loading" id='loading' size={30} />
 </div>
 
 <script>
-    document.addEventListener('DOMContentLoaded',() => {
-        setTimeout(() => {
-        document.querySelector('#container')?.classList.toggle('disabled')
-        }, 4000);
-    })
+  document.addEventListener("DOMContentLoaded", () => {
+    setTimeout(() => {
+      document.querySelector("#container")?.classList.toggle("disabled");
+    }, 4000);
+  });
 </script>
 <style>
-    .disabled {
-        opacity: 0 !important;
-        display: none !important;
-    }
+  .disabled {
+    opacity: 0 !important;
+    display: none !important;
+  }
   #container {
     position: absolute;
     top: 0;
@@ -24,12 +29,15 @@
     z-index: 50;
     background-color: var(--background-color-dark);
     display: flex;
+    flex-direction: column;
     opacity: 1;
     align-items: center;
     justify-content: center;
     width: 100dvw;
     height: 100dvh;
-    transition: display .7s, opacity .4s;
+    transition:
+      display 0.7s,
+      opacity 0.4s;
     transition-behavior: allow-discrete;
   }
   #main-logo {
@@ -38,23 +46,37 @@
     border-radius: 0.5em;
     display: flex;
     align-items: center;
-    animation: open_eyes .5s;
+    animation: open_eyes 0.5s;
   }
   #main-logo img {
     aspect-ratio: 1/1;
     width: 3em;
   }
   #main-logo span {
-    color:var(--font-color-on-dark);
+    color: var(--font-color-on-dark);
     font-family: var(--font-inter);
     font-weight: 600;
   }
   @keyframes open_eyes {
     0% {
-        opacity: .3;
+      opacity: 0.3;
     }
     100% {
-        opacity: 1;
+      opacity: 1;
+    }
+  }
+  #loading {
+    color: var(--background-color-light);
+    position: relative;
+    animation: loading_animation 1s linear infinite;
+    top: 5em;
+  }
+  @keyframes loading_animation {
+    0% {
+      transform: rotateZ(0deg);
+    }
+    100% {
+      transform: rotateZ(360deg);
     }
   }
 </style>

@@ -1,0 +1,52 @@
+---
+import "../assets/index.css";
+import SplashScreen from "../components/SplashScreen.astro";
+interface HeaderConfig {
+  title?: string;
+  description?: string;
+}
+const {
+  title = "Adivina La Palabra",
+  description = '¡Desafía tu mente con "Adivina la Palabra", un emocionante juego web que pondrá a prueba tu vocabulario e ingenio! Sumérgete en una experiencia adictiva donde el objetivo es simple: descubrir la palabra oculta antes de que se agoten tus intentos.',
+}: HeaderConfig = Astro.props;
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>{title}</title>
+    <meta name="description" content={description}>
+    <link rel="canonical" href={Astro.url.href} />
+    <meta property="og:url" content={Astro.url.href} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+  </head>
+  <body>
+    <SplashScreen />
+    <slot />
+  </body>
+</html>
+
+<style>
+  body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--background-color-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100dvw;
+    height: 100dvh;
+  }
+</style>
