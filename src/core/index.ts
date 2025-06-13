@@ -2,13 +2,13 @@
 // Word = Palabra
 
 // Tipos de pista, baja, meda y alta
-enum ClueLevels {
+export enum ClueLevels {
     low,
     mid,
     high
 }
 // Clase palabra
-class Word {
+export class Word {
     // La palabra que se va a utilizar como juego
     word:string
     // La palabra dividida por letras
@@ -30,7 +30,7 @@ class Word {
         for (let i = 1; i <= length; i++) {
             clueToReturn[Math.round(Math.random() * clueToReturn.length -1)] = ' '
         }
-        return clueToReturn.join()
+        return clueToReturn.join('')
     }
     // Función para obtener pista en base a el tipo de pista; 10%, 25% y 50% de pista
     obtainClue(level:ClueLevels) {
@@ -45,11 +45,4 @@ class Word {
         }
     }
 }
-// Pruebas
-console.log(new Word('Cambur').obtainClue(ClueLevels.low))
-console.log(new Word('Suplemento').obtainClue(ClueLevels.mid))
-console.log(new Word('Vitamina').obtainClue(ClueLevels.high))
-console.log(new Word('Avión').obtainClue(ClueLevels.high))
-
-console.log(new Word('Cambur').compare('Cambur')) // Debe devolver true
 

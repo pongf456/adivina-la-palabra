@@ -1,8 +1,10 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro'
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Dialog from "../components/dialog";
 ---
+
 <BaseLayout>
-<span>Hola mundo</span>
+  <Dialog client:visible/>
 </BaseLayout>
 
 <style>

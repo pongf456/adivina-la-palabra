@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root {
   /* Colores primarios */
   --color-primary-100: #F9DA62; /* Amarillo brillante del fondo, para fondos claros o tarjetas */
@@ -24,4 +26,17 @@
   --font-color-tertiary: var(--color-secondary-300); /* Color terciario para texto de poca importancia */
   --font-color-on-dark: #FFFFFF; /* Color de texto para usar sobre fondos oscuros */
   --font-inter: "Inter", sans-serif;
+}
+
+.text-primary {
+  font-family: var(--font-inter);
+  font-size: 1em;
+  font-weight: 600;
+  color:var(--font-color-primary)
+}
+.text-secondary {
+  font-family: var(--font-inter);
+  font-size: .8em;
+  font-weight: 500;
+  color:var(--font-color-secondary)
 }
