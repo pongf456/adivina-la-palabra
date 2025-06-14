@@ -50,27 +50,27 @@ export default function WordInput({ word, onSuccess }: Properties) {
 
   return (
     <AnimatePresence mode='wait'>
-    <motion.div key={word.word} initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="flex flex-wrap p-2 gap-2">
-      {clue.map((letter, index) => <LetterInput index={index} ref={(self) => {
-        inputRefs.current[index] = self
-      }} key={word.word + index} onChange={(e) => {
-        if (e.target.value === '') back(index)
-        else next(index)
-      }} onKeyDown={(e) => {
-        if (e.key === 'Backspace' && e.currentTarget.value === '') {
-          back(index)
-        }
-        else if (e.currentTarget.value !== '' && e.key !== 'Backspace') {
-          next(index)
-        }
-      }} id={word.word + index} letter={letter} />)}
-      <motion.button
-        initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
-        transition={{ delay: 0.2 * clue.length }}
-        key={word.word + 'button'} onClick={solve} className="p-2 bg-accent-red text-2xl text-background-light cursor-pointer">
-        <Icon icon="mdi:send-variant" />
-      </motion.button>
-    </motion.div>
+      <motion.div key={word.word} className="flex flex-wrap p-2 gap-2">
+        {clue.map((letter, index) => <LetterInput index={index} ref={(self) => {
+          inputRefs.current[index] = self
+        }} key={word.word + index} onChange={(e) => {
+          if (e.target.value === '') back(index)
+          else next(index)
+        }} onKeyDown={(e) => {
+          if (e.key === 'Backspace' && e.currentTarget.value === '') {
+            back(index)
+          }
+          else if (e.currentTarget.value !== '' && e.key !== 'Backspace') {
+            next(index)
+          }
+        }} id={word.word + index} letter={letter} />)}
+        <motion.button
+          initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
+          transition={{ delay: 0.2 * clue.length }}
+          key={word.word + 'button'} onClick={solve} className="p-2 bg-accent-red text-2xl text-background-light cursor-pointer">
+          <Icon icon="mdi:send-variant" />
+        </motion.button>
+      </motion.div>
     </AnimatePresence>
   )
 }
