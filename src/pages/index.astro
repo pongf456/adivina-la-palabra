@@ -1,10 +1,10 @@
 ---
+import WordInput from "../components/WordInput";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import Dialog from "../components/dialog";
 ---
 
 <BaseLayout>
-  <Dialog client:visible/>
+  <WordInput client:only/>
 </BaseLayout>
 
 <style>

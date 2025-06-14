@@ -1,0 +1,41 @@
+---
+import Members from "./Members"
+import Utilities from "./Utilities"
+---
+<nav class="w-full h-12 flex justify-between">
+  <div id="logo-container-nav">
+    <img src="/favicon.png" alt="logo-nav" />
+    <div id="data-container">
+      <span>Adivina La Palabra</span>
+      <Members client:load/>
+    </div>
+  </div>
+  <Utilities client:load/>
+</nav>
+
+<style>
+  nav {
+    display: flex;
+    width: 100%;
+    height: 4em;
+  }
+  #logo-container-nav {
+    display: flex;
+  }
+  #data-container {
+    position: relative;
+    padding: 0.1em;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  img {
+    max-height: 100%;
+  }
+  span {
+    font-family: var(--font-inter);
+    color: var(--color-secondary-100);
+    font-weight: 600;
+    font-size: 1em;
+  }
+</style>

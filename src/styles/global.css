@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
-:root {
+@theme {
+  --color-*:initial;
   /* Colores primarios */
   --color-primary-100: #F9DA62; /* Amarillo brillante del fondo, para fondos claros o tarjetas */
   --color-primary-200: #F5C93A; /* Amarillo ligeramente más oscuro, para elementos interactivos o resaltados */
@@ -17,14 +18,9 @@
   --color-accent-blue: #3498DB;  /* Azul turquesa, para enlaces, iconos o elementos interactivos */
 
   /* Colores de fondo */
-  --background-color-light: #FFFCF5; /* Un blanco roto o crema muy suave, para fondos generales */
-  --background-color-dark: #202E3E; /* Un azul oscuro casi negro, para fondos de secciones o footers */
-
-  /* Colores de texto */
-  --font-color-primary: var(--color-secondary-100); /* Color principal para el texto */
-  --font-color-secondary: var(--color-secondary-200); /* Color secundario para el texto */
-  --font-color-tertiary: var(--color-secondary-300); /* Color terciario para texto de poca importancia */
-  --font-color-on-dark: #FFFFFF; /* Color de texto para usar sobre fondos oscuros */
+  --color-background-light: #FFFCF5; /* Un blanco roto o crema muy suave, para fondos generales */
+  --color-background-dark: #202E3E; /* Un azul oscuro casi negro, para fondos de secciones o footers */
+  --font-*:initial;
   --font-inter: "Inter", sans-serif;
 }
 
