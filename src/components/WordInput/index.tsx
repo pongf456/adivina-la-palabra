@@ -1,65 +1,76 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from "react"
-import { ClueLevels, Word } from "../../core"
-import { Icon } from '@iconify/react'
+import { useCallback, useEffect, useMemo, useRef, } from "react"
+import { HideLevels, Word } from "../../core"
 import LetterInput from "./LetterInput"
-const palabrasAleatorias = [
-  "sol", "luna", "estrella", "nube", "lluvia",
-  "viento", "flor", "arbol", "rio", "mar",
-  "montaña", "sendero", "valle", "desierto", "oceano",
-  "libro", "lapiz", "papel", "tinta", "escuela",
-  "hogar", "casa", "ciudad", "pueblo", "calle",
-  "perro", "gato", "pajaro", "pez", "leon",
-  "tigre", "elefante", "jirafa", "mono", "oso",
-  "comida", "agua", "pan", "fruta", "verdura",
-  "azul", "rojo", "verde", "amarillo", "blanco",
-  "negro", "gris", "rosa", "morado", "naranja",
-  "musica", "arte", "danza", "canto", "pintura",
-  "tiempo", "reloj", "minuto", "hora", "dia",
-  "noche", "mañana", "tarde", "mediodia", "medianoche",
-  "felicidad", "tristeza", "alegria", "miedo", "amor",
-  "paz", "esperanza", "sueño", "despertar", "dormir"
-];
-
-function obtenerPalabraAleatoria() {
-  const indiceAleatorio = Math.floor(Math.random() * palabrasAleatorias.length);
-  return palabrasAleatorias[indiceAleatorio];
+import { AnimatePresence, motion } from 'motion/react'
+import { Icon } from '@iconify/react'
+interface Properties {
+  word: Word,
+  onSuccess?: () => void
 }
-export default function WordInput() {
-  const [word,setWord] = useState(new Word(obtenerPalabraAleatoria()))
-  const clue = useMemo(() => word.obtainClue(ClueLevels.high).split(''), [word])
+export default function WordInput({ word, onSuccess }: Properties) {
+  const clue = useMemo(() => word.obtainWordHidden(HideLevels.high).split(''), [word])
   const inputRefs = useRef<(HTMLInputElement | null)[]>([]);
-  useEffect(() => {
-    if (inputRefs.current[0]) {
-      console.log(inputRefs.current[0])
-      inputRefs.current[0].focus()
-    }
-  }, [clue])
-  const submit = () => {
-    const userWord = inputRefs.current.map((v) => {
-      if (v?.disabled) return v.placeholder ?? ''
-      return v?.value ?? ''
-    })
-    console.log(word.word, userWord)
-    if (word.compare(userWord)) {
-      alert('¡Correcto! Sigue con otra palabra.')
-      setWord(new Word(obtenerPalabraAleatoria()))
-    }
-    else {
-      alert('¡Incorrecto! Intenta de nuevo.')
+  const next = (index: number) => {
+    for (let i = index + 1; i < inputRefs.current.length; i++) {
+      const target = inputRefs.current[i]
+      if (target && !target.disabled) {
+        target.focus()
+        break;
+      }
     }
   }
+  const back = (index: number) => {
+    if (index === 0) return
+    for (let i = index - 1; i >= 0; i--) {
+      const target = inputRefs.current[i]
+      if (target && !target.disabled) {
+        target.focus()
+        break;
+      }
+    }
+  }
+  const solve = useCallback(() => {
+    const letters = inputRefs.current.map((input) => {
+      if (input) {
+        if (input.disabled) return input.placeholder
+        else return input.value
+      }
+      else return ''
+    })
+    if (word.compare(letters) && onSuccess) {
+      onSuccess()
+    }
+  }, [inputRefs, word])
+  useEffect(() => {
+    next(-1)
+    inputRefs.current.map((e) => {
+      if (e) e.value = ''
+    })
+  }, [clue])
 
   return (
-    <div className="flex flex-col gap-4">
-      <div className="flex flex-wrap p-2 gap-2">
-        {clue.map((letter, index) => <LetterInput ref={(self) => {
-          inputRefs.current[index] = self
-        }} key={word.word + index} letter={letter} />)}
-      </div>
-      <button onClick={submit} className="p-1 text-xl bg-accent-red flex gap-1 items-center flex-row self-center rounded-md font-inter font-medium text-background-light">
-        <span>Resolver</span>
-        <Icon icon="mdi:head-check-outline" className="text-background-light" />
-      </button>
-    </div>
+    <AnimatePresence mode='wait'>
+    <motion.div key={word.word} initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="flex flex-wrap p-2 gap-2">
+      {clue.map((letter, index) => <LetterInput index={index} ref={(self) => {
+        inputRefs.current[index] = self
+      }} key={word.word + index} onChange={(e) => {
+        if (e.target.value === '') back(index)
+        else next(index)
+      }} onKeyDown={(e) => {
+        if (e.key === 'Backspace' && e.currentTarget.value === '') {
+          back(index)
+        }
+        else if (e.currentTarget.value !== '' && e.key !== 'Backspace') {
+          next(index)
+        }
+      }} id={word.word + index} letter={letter} />)}
+      <motion.button
+        initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
+        transition={{ delay: 0.2 * clue.length }}
+        key={word.word + 'button'} onClick={solve} className="p-2 bg-accent-red text-2xl text-background-light cursor-pointer">
+        <Icon icon="mdi:send-variant" />
+      </motion.button>
+    </motion.div>
+    </AnimatePresence>
   )
 }

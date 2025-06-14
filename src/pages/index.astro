@@ -1,14 +1,37 @@
 ---
-import WordInput from "../components/WordInput";
+import Clue from "../components/Clue";
+import Starter from '../components/Starter'
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
 <BaseLayout>
-  <WordInput client:only/>
+<main>
+  <section>
+    
+  </section>
+  <div>
+    <Starter client:only/>
+    <Clue client:only/>
+  </div>
+  <section>
+    
+  </section>
+</main>
 </BaseLayout>
 
 <style>
-  span {
-    font-family: var(--font-inter);
+  main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  section {
+    flex: auto;
+  }
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 </style>
