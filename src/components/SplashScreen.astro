@@ -3,11 +3,8 @@ import { Icon } from "astro-icon/components";
 ---
 
 <div id="container">
-  <div id="main-logo">
-    <img src="/favicon.png" alt="Logo" />
-    <span>Adivina La Palabra</span>
-  </div>
-  <Icon name="mdi:loading" id='loading' size={30} />
+  <img src="/favicon.png" alt="Logo" />
+  <Icon name="mdi:loading" id="loading" size={30} />
 </div>
 
 <script>
@@ -40,22 +37,11 @@ import { Icon } from "astro-icon/components";
       opacity 0.4s;
     transition-behavior: allow-discrete;
   }
-  #main-logo {
-    margin: 0.2em;
-    padding: 0.1em 0.3em;
-    border-radius: 0.5em;
-    display: flex;
-    align-items: center;
-    animation: open_eyes 0.5s;
-  }
-  #main-logo img {
+
+  img {
+    animation: open_eyes 1s;
     aspect-ratio: 1/1;
-    width: 3em;
-  }
-  #main-logo span {
-    color: var(--color-background-light);
-    font-family: var(--font-inter);
-    font-weight: 600;
+    width: 10em;
   }
   @keyframes open_eyes {
     0% {

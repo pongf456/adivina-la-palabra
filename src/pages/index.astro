@@ -1,22 +1,18 @@
 ---
 import Clue from "../components/Clue";
-import Starter from '../components/Starter'
+import Starter from "../components/Starter";
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
 <BaseLayout>
-<main>
-  <section>
-    
-  </section>
-  <div>
-    <Starter client:only/>
-    <Clue client:only/>
-  </div>
-  <section>
-    
-  </section>
-</main>
+  <main>
+    <section></section>
+    <div>
+      <Starter client:only />
+      <Clue client:only />
+    </div>
+    <section></section>
+  </main>
 </BaseLayout>
 
 <style>
@@ -28,6 +24,9 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   }
   section {
     flex: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   div {
     display: flex;

@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, } from "react"
 import { HideLevels, Word } from "../../core"
 import LetterInput from "./LetterInput"
 import { AnimatePresence, motion } from 'motion/react'
-import { Icon } from '@iconify/react'
+import SendButton from "./SendButton"
 interface Properties {
   word: Word,
   onSuccess?: () => void
@@ -39,13 +39,12 @@ export default function WordInput({ word, onSuccess }: Properties) {
     })
     if (word.compare(letters) && onSuccess) {
       onSuccess()
+      return true
     }
+    else return false
   }, [inputRefs, word])
   useEffect(() => {
     next(-1)
-    inputRefs.current.map((e) => {
-      if (e) e.value = ''
-    })
   }, [clue])
 
   return (
@@ -64,12 +63,7 @@ export default function WordInput({ word, onSuccess }: Properties) {
             next(index)
           }
         }} id={word.word + index} letter={letter} />)}
-        <motion.button
-          initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
-          transition={{ delay: 0.2 * clue.length }}
-          key={word.word + 'button'} onClick={solve} className="p-2 bg-accent-red text-2xl text-background-light cursor-pointer">
-          <Icon icon="mdi:send-variant" />
-        </motion.button>
+      <SendButton key={`submit-${word.word}`} index={clue.length} submit={solve} />
       </motion.div>
     </AnimatePresence>
   )
