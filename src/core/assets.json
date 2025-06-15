@@ -1,954 +1,1330 @@
 [
-    {
-      "word": "elefante",
-      "clues": [
-        "Es un animal grande y gris.",
-        "Tiene una trompa muy larga.",
-        "Puede vivir en la sabana africana o en la selva."
-      ]
-    },
-    {
-      "word": "guitarra",
-      "clues": [
-        "Es un instrumento musical de cuerda.",
-        "Se usa en muchos géneros como el rock o el flamenco.",
-        "Requiere el uso de ambas manos para tocarla."
-      ]
-    },
-    {
-      "word": "sol",
-      "clues": [
-        "Es una estrella que ilumina nuestro planeta.",
-        "Nos proporciona luz y calor.",
-        "Es el centro de nuestro sistema solar."
-      ]
-    },
-    {
-      "word": "chocolate",
-      "clues": [
-        "Es un dulce muy popular.",
-        "Se obtiene de la semilla del cacao.",
-        "Puede ser amargo, con leche o blanco."
-      ]
-    },
-    {
-      "word": "ordenador",
-      "clues": [
-        "Es una máquina electrónica para procesar información.",
-        "Permite navegar por internet, trabajar o jugar.",
-        "Puede ser de escritorio o portátil."
-      ]
-    },
-    {
-      "word": "libro",
-      "clues": [
-        "Contiene historias, información o conocimientos.",
-        "Sus páginas están encuadernadas.",
-        "Se lee para aprender o entretenerse."
-      ]
-    },
-    {
-      "word": "cafe",
-      "clues": [
-        "Es una bebida popular que se toma caliente.",
-        "Se prepara con granos tostados y molidos.",
-        "Muchos lo toman por la mañana para activarse."
-      ]
-    },
-    {
-      "word": "bicicleta",
-      "clues": [
-        "Es un medio de transporte de dos ruedas.",
-        "Se impulsa pedaleando.",
-        "Es ecológico y bueno para la salud."
-      ]
-    },
-    {
-      "word": "reloj",
-      "clues": [
-        "Sirve para medir el tiempo.",
-        "Puede llevarse en la muñeca o estar en una pared.",
-        "Tiene agujas o una pantalla digital."
-      ]
-    },
-    {
-      "word": "telefono",
-      "clues": [
-        "Permite la comunicación a distancia.",
-        "Puede ser fijo o móvil.",
-        "Hoy en día, muchos tienen acceso a internet."
-      ]
-    },
-    {
-      "word": "agua",
-      "clues": [
-        "Es un líquido vital para la vida.",
-        "Cubre gran parte de la superficie terrestre.",
-        "No tiene color, sabor ni olor."
-      ]
-    },
-    {
-      "word": "arbol",
-      "clues": [
-        "Es una planta de tronco leñoso y ramas.",
-        "Produce oxígeno y frutos.",
-        "Forma parte de bosques y jardines."
-      ]
-    },
-    {
-      "word": "puerta",
-      "clues": [
-        "Sirve para entrar o salir de un lugar.",
-        "Puede ser de madera, metal o vidrio.",
-        "Tiene bisagras y una cerradura."
-      ]
-    },
-    {
-      "word": "flor",
-      "clues": [
-        "Es la parte más vistosa de una planta.",
-        "Atrae a insectos para la polinización.",
-        "A menudo se regala como muestra de afecto."
-      ]
-    },
-    {
-      "word": "coche",
-      "clues": [
-        "Es un vehículo de cuatro ruedas.",
-        "Se usa para transportar personas o carga.",
-        "Necesita combustible para funcionar."
-      ]
-    },
-    {
-      "word": "mesa",
-      "clues": [
-        "Es un mueble con una superficie plana y patas.",
-        "Se usa para comer, trabajar o apoyar objetos.",
-        "Puede ser de madera, metal o cristal."
-      ]
-    },
-    {
-      "word": "silla",
-      "clues": [
-        "Es un mueble diseñado para sentarse.",
-        "Tiene respaldo y, a veces, reposabrazos.",
-        "Puede ser de diferentes materiales y estilos."
-      ]
-    },
-    {
-      "word": "perro",
-      "clues": [
-        "Es un animal doméstico muy leal.",
-        "Es conocido como 'el mejor amigo del hombre'.",
-        "Puede ladrar y mover la cola."
-      ]
-    },
-    {
-      "word": "gato",
-      "clues": [
-        "Es un animal doméstico independiente.",
-        "Le gusta cazar ratones y dormir mucho.",
-        "Puede maullar y ronronear."
-      ]
-    },
-    {
-      "word": "casa",
-      "clues": [
-        "Es una construcción donde vive una familia.",
-        "Tiene habitaciones, cocina y baños.",
-        "Ofrece refugio y seguridad."
-      ]
-    },
-    {
-      "word": "escuela",
-      "clues": [
-        "Es un lugar donde los niños van a aprender.",
-        "Hay maestros y alumnos.",
-        "Se enseñan diversas materias."
-      ]
-    },
-    {
-      "word": "medico",
-      "clues": [
-        "Es un profesional que cura enfermedades.",
-        "Trabaja en hospitales o consultorios.",
-        "Examina a los pacientes y receta medicamentos."
-      ]
-    },
-    {
-      "word": "platano",
-      "clues": [
-        "Es una fruta amarilla y alargada.",
-        "Crece en racimos.",
-        "Es una buena fuente de potasio."
-      ]
-    },
-    {
-      "word": "nube",
-      "clues": [
-        "Se forma por vapor de agua en la atmósfera.",
-        "Puede ser blanca o gris.",
-        "A veces trae lluvia o tormentas."
-      ]
-    },
-    {
-      "word": "montaña",
-      "clues": [
-        "Es una gran elevación natural de terreno.",
-        "Puede tener picos nevados.",
-        "Es un lugar para hacer senderismo o escalar."
-      ]
-    },
-    {
-      "word": "rio",
-      "clues": [
-        "Es una corriente natural de agua dulce.",
-        "Fluye hacia un mar, lago u otro río.",
-        "Es hábitat de peces y otras especies."
-      ]
-    },
-    {
-      "word": "oceano",
-      "clues": [
-        "Es una gran extensión de agua salada.",
-        "Cubre la mayor parte del planeta.",
-        "Es el hogar de ballenas y tiburones."
-      ]
-    },
-    {
-      "word": "estrella",
-      "clues": [
-        "Es un cuerpo celeste que emite luz propia.",
-        "Se ven muchas en el cielo nocturno.",
-        "El Sol es una de ellas."
-      ]
-    },
-    {
-      "word": "luna",
-      "clues": [
-        "Es el satélite natural de la Tierra.",
-        "Refleja la luz del Sol.",
-        "Tiene fases: llena, nueva, cuarto creciente, etc."
-      ]
-    },
-    {
-      "word": "nieve",
-      "clues": [
-        "Es agua congelada que cae en forma de cristales.",
-        "Cubre el paisaje de blanco en invierno.",
-        "Sirve para esquiar o hacer muñecos."
-      ]
-    },
-    {
-      "word": "fuego",
-      "clues": [
-        "Es una reacción química que produce luz y calor.",
-        "Puede ser destructivo o útil (para cocinar).",
-        "Se usa para calentar o iluminar."
-      ]
-    },
-    {
-      "word": "viento",
-      "clues": [
-        "Es el aire en movimiento.",
-        "Puede mover molinos o hacer volar cometas.",
-        "A veces es suave y una brisa, otras muy fuerte."
-      ]
-    },
-    {
-      "word": "lluvia",
-      "clues": [
-        "Es agua que cae de las nubes.",
-        "Es esencial para las plantas y los cultivos.",
-        "Se usa un paraguas para protegerse de ella."
-      ]
-    },
-    {
-      "word": "paraguas",
-      "clues": [
-        "Se usa para protegerse de la lluvia o el sol.",
-        "Puede plegarse para guardarlo.",
-        "Tiene una varilla central y costillas."
-      ]
-    },
-    {
-      "word": "zapato",
-      "clues": [
-        "Se usa para cubrir y proteger el pie.",
-        "Hay de muchos tipos: deportivos, de vestir, sandalias.",
-        "Puede tener cordones o hebillas."
-      ]
-    },
-    {
-      "word": "camiseta",
-      "clues": [
-        "Es una prenda de vestir para la parte superior del cuerpo.",
-        "Suele ser de algodón y tener mangas cortas.",
-        "Es muy común y cómoda."
-      ]
-    },
-    {
-      "word": "pantalon",
-      "clues": [
-        "Es una prenda de vestir para las piernas.",
-        "Puede ser vaquero, de tela, corto o largo.",
-        "Se ajusta a la cintura."
-      ]
-    },
-    {
-      "word": "sombrero",
-      "clues": [
-        "Se usa en la cabeza para protegerse del sol o por moda.",
-        "Puede tener ala o no.",
-        "Hay muchos estilos: gorra, fedora, boina."
-      ]
-    },
-    {
-      "word": "cuchillo",
-      "clues": [
-        "Es un utensilio de cocina con hoja afilada.",
-        "Sirve para cortar alimentos.",
-        "Debe usarse con precaución."
-      ]
-    },
-    {
-      "word": "tenedor",
-      "clues": [
-        "Es un utensilio con dientes o púas.",
-        "Se usa para pinchar alimentos y llevarlos a la boca.",
-        "Es parte de los cubiertos de mesa."
-      ]
-    },
-    {
-      "word": "cuchara",
-      "clues": [
-        "Es un utensilio con una concavidad.",
-        "Sirve para tomar líquidos o alimentos blandos.",
-        "Se usa para comer sopa o postres."
-      ]
-    },
-    {
-      "word": "plato",
-      "clues": [
-        "Es un recipiente plano o ligeramente cóncavo.",
-        "Se usa para servir y comer alimentos.",
-        "Puede ser de cerámica, vidrio o plástico."
-      ]
-    },
-    {
-      "word": "vaso",
-      "clues": [
-        "Es un recipiente sin asa.",
-        "Se usa para beber líquidos.",
-        "Suele ser de vidrio o plástico."
-      ]
-    },
-    {
-      "word": "lapiz",
-      "clues": [
-        "Es un instrumento para escribir o dibujar.",
-        "Deja una marca de grafito.",
-        "Se le saca punta cuando se gasta."
-      ]
-    },
-    {
-      "word": "papel",
-      "clues": [
-        "Material fino hecho de celulosa.",
-        "Se usa para escribir, dibujar o imprimir.",
-        "Puede ser blanco o de colores."
-      ]
-    },
-    {
-      "word": "tijeras",
-      "clues": [
-        "Es una herramienta con dos cuchillas cruzadas.",
-        "Se usa para cortar papel, tela o pelo.",
-        "Requiere el uso de los dedos para operarlas."
-      ]
-    },
-    {
-      "word": "boligrafo",
-      "clues": [
-        "Es un instrumento de escritura con tinta.",
-        "Tiene una punta de bola que distribuye la tinta.",
-        "Reemplazó a la pluma en popularidad."
-      ]
-    },
-    {
-      "word": "teclado",
-      "clues": [
-        "Es un periférico de entrada de un ordenador.",
-        "Contiene letras, números y símbolos.",
-        "Se usa para escribir texto."
-      ]
-    },
-    {
-      "word": "raton",
-      "clues": [
-        "Es un periférico de entrada de un ordenador.",
-        "Se mueve sobre una superficie para controlar el cursor.",
-        "Tiene botones para hacer clic."
-      ]
-    },
-    {
-      "word": "pantalla",
-      "clues": [
-        "Es la superficie donde se muestra la imagen.",
-        "Puede ser de un televisor, ordenador o teléfono.",
-        "Permite interactuar con la interfaz gráfica."
-      ]
-    },
-    {
-      "word": "camara",
-      "clues": [
-        "Es un dispositivo para capturar imágenes o videos.",
-        "Puede ser digital o analógica.",
-        "Se usa para preservar recuerdos."
-      ]
-    },
-    {
-      "word": "musica",
-      "clues": [
-        "Es el arte de combinar sonidos.",
-        "Se puede escuchar con instrumentos o voces.",
-        "Evoca emociones y se usa para bailar."
-      ]
-    },
-    {
-      "word": "pelota",
-      "clues": [
-        "Es un objeto esférico usado en muchos deportes.",
-        "Puede ser de fútbol, baloncesto, tenis.",
-        "Se patea, se lanza o se golpea."
-      ]
-    },
-    {
-      "word": "balon",
-      "clues": [
-        "Es similar a una pelota, pero a menudo más grande.",
-        "Se usa en deportes como el fútbol o baloncesto.",
-        "Se infla con aire."
-      ]
-    },
-    {
-      "word": "juego",
-      "clues": [
-        "Es una actividad recreativa para divertirse.",
-        "Puede tener reglas y objetivos.",
-        "Hay de mesa, de cartas, de video."
-      ]
-    },
-    {
-      "word": "familia",
-      "clues": [
-        "Es el grupo de personas unidas por parentesco.",
-        "Incluye padres, hermanos, hijos, etc.",
-        "Generalmente comparten un hogar."
-      ]
-    },
-    {
-      "word": "amigo",
-      "clues": [
-        "Es una persona con la que se tiene una relación de afecto.",
-        "Ofrece apoyo y compañía.",
-        "Puedes compartir secretos con él o ella."
-      ]
-    },
-    {
-      "word": "ciudad",
-      "clues": [
-        "Es un gran centro urbano con muchos edificios.",
-        "Tiene calles, plazas y transporte público.",
-        "Suele ser un centro económico y cultural."
-      ]
-    },
-    {
-      "word": "pueblo",
-      "clues": [
-        "Es una localidad más pequeña que una ciudad.",
-        "Generalmente tiene menos habitantes.",
-        "Suele tener un ambiente más tranquilo."
-      ]
-    },
-    {
-      "word": "hospital",
-      "clues": [
-        "Es un lugar donde se atiende a los enfermos y heridos.",
-        "Trabajan médicos y enfermeras.",
-        "Tiene quirófanos y salas de emergencia."
-      ]
-    },
-    {
-      "word": "supermercado",
-      "clues": [
-        "Es una tienda grande donde se venden alimentos y productos para el hogar.",
-        "Tiene diferentes pasillos y cajas.",
-        "Puedes encontrar frutas, verduras, carne, etc."
-      ]
-    },
-    {
-      "word": "restaurante",
-      "clues": [
-        "Es un establecimiento donde se preparan y sirven comidas.",
-        "La gente va a comer fuera de casa.",
-        "Ofrecen un menú con diversas opciones."
-      ]
-    },
-    {
-      "word": "aeropuerto",
-      "clues": [
-        "Es un lugar donde aterrizan y despegan aviones.",
-        "Tiene pistas y terminales.",
-        "Es un punto de partida para viajes largos."
-      ]
-    },
-    {
-      "word": "tren",
-      "clues": [
-        "Es un medio de transporte que viaja sobre rieles.",
-        "Arrastra vagones llenos de pasajeros o carga.",
-        "Puede ser de alta velocidad o de cercanías."
-      ]
-    },
-    {
-      "word": "autobus",
-      "clues": [
-        "Es un vehículo grande para transportar muchas personas.",
-        "Hace rutas fijas con paradas.",
-        "Es un transporte público urbano o interurbano."
-      ]
-    },
-    {
-      "word": "barco",
-      "clues": [
-        "Es un vehículo que navega sobre el agua.",
-        "Puede ser pequeño (bote) o muy grande (crucero).",
-        "Se usa para pesca, transporte o recreo."
-      ]
-    },
-    {
-      "word": "avion",
-      "clues": [
-        "Es un vehículo que vuela por el aire.",
-        "Tiene alas y motores.",
-        "Se usa para viajar distancias largas rápidamente."
-      ]
-    },
-    {
-      "word": "policia",
-      "clues": [
-        "Es una fuerza de seguridad pública.",
-        "Mantiene el orden y combate el crimen.",
-        "Usa uniforme y, a veces, patrullas."
-      ]
-    },
-    {
-      "word": "bombero",
-      "clues": [
-        "Es un profesional que apaga incendios.",
-        "Rescata personas de accidentes o desastres.",
-        "Usa una manguera y un camión especial."
-      ]
-    },
-    {
-      "word": "profesor",
-      "clues": [
-        "Es una persona que enseña en una escuela o universidad.",
-        "Comparte conocimientos con sus alumnos.",
-        "Evalúa y califica el aprendizaje."
-      ]
-    },
-    {
-      "word": "estudiante",
-      "clues": [
-        "Es una persona que asiste a una institución educativa.",
-        "Aprende de los profesores y estudia.",
-        "Hace tareas y exámenes."
-      ]
-    },
-    {
-      "word": "doctor",
-      "clues": [
-        "Diagnostica y trata enfermedades.",
-        "Trabaja en un hospital o clínica.",
-        "Prescribe medicamentos o tratamientos."
-      ]
-    },
-    {
-      "word": "enfermera",
-      "clues": [
-        "Asiste al médico en el cuidado de los pacientes.",
-        "Administra medicamentos y realiza curas.",
-        "Trabaja en hospitales, clínicas o residencias."
-      ]
-    },
-    {
-      "word": "artista",
-      "clues": [
-        "Crea obras de arte como pinturas, esculturas o música.",
-        "Expresa su creatividad.",
-        "Puede trabajar con pinceles, cinceles o instrumentos."
-      ]
-    },
-    {
-      "word": "cantante",
-      "clues": [
-        "Utiliza su voz como instrumento musical.",
-        "Interpreta canciones en solitario o en grupo.",
-        "Actúa en conciertos o grabaciones."
-      ]
-    },
-    {
-      "word": "bailarin",
-      "clues": [
-        "Expresa emociones a través del movimiento corporal.",
-        "Puede practicar ballet, salsa, hip hop.",
-        "Se presenta en escenarios."
-      ]
-    },
-    {
-      "word": "deporte",
-      "clues": [
-        "Es una actividad física reglamentada.",
-        "Puede ser individual o en equipo.",
-        "Sirve para mantenerse en forma y competir."
-      ]
-    },
-    {
-      "word": "futbol",
-      "clues": [
-        "Es el deporte más popular del mundo.",
-        "Se juega con los pies para meter un gol.",
-        "Se juega en un campo con dos porterías."
-      ]
-    },
-    {
-      "word": "baloncesto",
-      "clues": [
-        "Es un deporte de equipo con un balón.",
-        "Se encesta el balón en un aro elevado.",
-        "Se juega en una cancha con canastas."
-      ]
-    },
-    {
-      "word": "natacion",
-      "clues": [
-        "Es un deporte que se practica en el agua.",
-        "Se usan brazos y piernas para impulsarse.",
-        "Puede ser en piscina, río o mar."
-      ]
-    },
-    {
-      "word": "correr",
-      "clues": [
-        "Es una actividad física que implica moverse rápidamente.",
-        "Se puede hacer en una pista, calle o montaña.",
-        "Es un ejercicio aeróbico."
-      ]
-    },
-    {
-      "word": "leer",
-      "clues": [
-        "Es la acción de interpretar textos escritos.",
-        "Se hace con libros, periódicos o pantallas.",
-        "Permite adquirir conocimientos o entretenerse."
-      ]
-    },
-    {
-      "word": "escribir",
-      "clues": [
-        "Es la acción de plasmar ideas con letras y palabras.",
-        "Se usa un lápiz, bolígrafo o teclado.",
-        "Se puede hacer una carta, un cuento o un informe."
-      ]
-    },
-    {
-      "word": "dibujar",
-      "clues": [
-        "Es la acción de crear imágenes con líneas y formas.",
-        "Se puede usar lápiz, carboncillo o colores.",
-        "Requiere creatividad y habilidad manual."
-      ]
-    },
-    {
-      "word": "cocinar",
-      "clues": [
-        "Es el arte de preparar alimentos para comer.",
-        "Se usan ingredientes y utensilios de cocina.",
-        "Puede implicar hornear, freír o hervir."
-      ]
-    },
-    {
-      "word": "bailar",
-      "clues": [
-        "Es mover el cuerpo al ritmo de la música.",
-        "Puede ser en solitario, en pareja o en grupo.",
-        "Hay muchos estilos como salsa, tango o ballet."
-      ]
-    },
-    {
-      "word": "dormir",
-      "clues": [
-        "Es un estado de reposo natural del cuerpo y la mente.",
-        "Es esencial para recuperar energía.",
-        "Se hace en una cama o en un sofá."
-      ]
-    },
-    {
-      "word": "comer",
-      "clues": [
-        "Es la acción de ingerir alimentos para nutrirse.",
-        "Se hace varias veces al día.",
-        "Es una necesidad básica del ser humano."
-      ]
-    },
-    {
-      "word": "beber",
-      "clues": [
-        "Es la acción de ingerir líquidos.",
-        "Se usa un vaso, una taza o una botella.",
-        "Es fundamental para la hidratación."
-      ]
-    },
-    {
-      "word": "trabajar",
-      "clues": [
-        "Es la actividad que se realiza para obtener un beneficio.",
-        "Puede ser remunerado o voluntario.",
-        "Contribuye a la sociedad o a un proyecto."
-      ]
-    },
-    {
-      "word": "estudiar",
-      "clues": [
-        "Es el acto de adquirir conocimientos mediante la lectura o el análisis.",
-        "Se hace para aprender una materia o preparar un examen.",
-        "Requiere concentración y dedicación."
-      ]
-    },
-    {
-      "word": "jugar",
-      "clues": [
-        "Es una actividad recreativa o deportiva.",
-        "Se hace para divertirse o competir.",
-        "Es común en niños, pero también en adultos."
-      ]
-    },
-    {
-      "word": "cielo",
-      "clues": [
-        "Es la bóveda azul que vemos sobre nosotros.",
-        "De día tiene nubes, de noche estrellas y la luna.",
-        "Es donde vuelan los pájaros y los aviones."
-      ]
-    },
-    {
-      "word": "tierra",
-      "clues": [
-        "Es el planeta en el que vivimos.",
-        "Está cubierta por agua y continentes.",
-        "Es el tercer planeta desde el Sol."
-      ]
-    },
-    {
-      "word": "mar",
-      "clues": [
-        "Es una gran masa de agua salada.",
-        "Es más pequeño que un océano.",
-        "Es un lugar para nadar o navegar."
-      ]
-    },
-    {
-      "word": "arena",
-      "clues": [
-        "Son partículas pequeñas de roca o coral.",
-        "Se encuentra en playas y desiertos.",
-        "Se usa para construir castillos."
-      ]
-    },
-    {
-      "word": "piedra",
-      "clues": [
-        "Es un material duro y sólido.",
-        "Se encuentra en la naturaleza y se usa en construcción.",
-        "Puede ser de diferentes tamaños y formas."
-      ]
-    },
-    {
-      "word": "madera",
-      "clues": [
-        "Es un material natural que proviene de los árboles.",
-        "Se usa para construir muebles, casas o papel.",
-        "Es un combustible en las chimeneas."
-      ]
-    },
-    {
-      "word": "metal",
-      "clues": [
-        "Es un material duro, brillante y conductor.",
-        "Se usa para fabricar herramientas, coches o joyas.",
-        "Ejemplos son el hierro, el oro o el cobre."
-      ]
-    },
-    {
-      "word": "plastico",
-      "clues": [
-        "Es un material sintético, ligero y moldeable.",
-        "Se usa para hacer envases, juguetes o tuberías.",
-        "Puede ser reciclado, pero es contaminante."
-      ]
-    },
-    {
-      "word": "vidrio",
-      "clues": [
-        "Es un material transparente y frágil.",
-        "Se usa para hacer ventanas, botellas o vasos.",
-        "Se fabrica a partir de arena de sílice."
-      ]
-    },
-    {
-      "word": "algodon",
-      "clues": [
-        "Es una fibra natural suave.",
-        "Se usa para fabricar ropa, toallas o gasas.",
-        "Proviene de una planta."
-      ]
-    },
-    {
-      "word": "lana",
-      "clues": [
-        "Es una fibra natural que proviene de las ovejas.",
-        "Se usa para hacer ropa de abrigo como suéteres.",
-        "Es suave y mantiene el calor."
-      ]
-    },
-    {
-      "word": "seda",
-      "clues": [
-        "Es una fibra natural muy fina y brillante.",
-        "Proviene de los capullos de un gusano.",
-        "Se usa para fabricar ropa de lujo o pañuelos."
-      ]
-    },
-    {
-      "word": "oro",
-      "clues": [
-        "Es un metal precioso y brillante.",
-        "Se usa para hacer joyas, monedas o lingotes.",
-        "Es muy valioso y no se oxida."
-      ]
-    },
-    {
-      "word": "plata",
-      "clues": [
-        "Es un metal precioso, blanco y brillante.",
-        "Se usa para hacer joyas, cubiertos o espejos.",
-        "Es menos valioso que el oro."
-      ]
-    },
-    {
-      "word": "cobre",
-      "clues": [
-        "Es un metal rojizo, muy buen conductor eléctrico.",
-        "Se usa para cables, tuberías o monedas.",
-        "Es dúctil y maleable."
-      ]
-    },
-    {
-      "word": "hierro",
-      "clues": [
-        "Es un metal común y muy resistente.",
-        "Se usa en la construcción, herramientas y maquinaria.",
-        "Se oxida fácilmente si no se protege."
-      ]
-    },
-    {
-      "word": "azucar",
-      "clues": [
-        "Es un edulcorante que se extrae de la caña o la remolacha.",
-        "Se usa para endulzar bebidas o postres.",
-        "Es de color blanco y tiene forma de gránulos."
-      ]
-    },
-    {
-      "word": "sal",
-      "clues": [
-        "Es un mineral usado para sazonar alimentos.",
-        "Puede ser marina o de roca.",
-        "Es esencial para la vida en pequeñas cantidades."
-      ]
-    },
-    {
-      "word": "pimienta",
-      "clues": [
-        "Es una especia picante, a menudo negra o blanca.",
-        "Se usa molida para condimentar comidas.",
-        "Proviene de una planta trepadora."
-      ]
-    },
-    {
-      "word": "aceite",
-      "clues": [
-        "Es un líquido graso de origen vegetal o animal.",
-        "Se usa para cocinar, aliñar o como combustible.",
-        "Ejemplos son el de oliva, girasol o maíz."
-      ]
-    },
-    {
-      "word": "vinagre",
-      "clues": [
-        "Es un líquido ácido producido por la fermentación.",
-        "Se usa para aliñar ensaladas o conservar alimentos.",
-        "Puede ser de vino, manzana o arroz."
-      ]
-    },
-    {
-      "word": "pan",
-      "clues": [
-        "Es un alimento básico hecho de harina, agua y levadura.",
-        "Se hornea y se consume en rebanadas o piezas.",
-        "Puede ser blanco, integral o de centeno."
-      ]
-    },
-    {
-      "word": "queso",
-      "clues": [
-        "Es un alimento sólido que se obtiene de la leche.",
-        "Hay muchos tipos: fresco, curado, azul.",
-        "Se puede comer solo o en sándwiches y pizzas."
-      ]
-    },
-    {
-      "word": "huevo",
-      "clues": [
-        "Es un alimento ovalado puesto por las aves.",
-        "Tiene clara y yema.",
-        "Se puede freír, cocer o usar en repostería."
-      ]
-    },
-    {
-      "word": "leche",
-      "clues": [
-        "Es un líquido blanco producido por mamíferos.",
-        "Es una bebida nutritiva, especialmente para bebés.",
-        "Se usa para hacer yogur, queso y mantequilla."
-      ]
-    },
-    {
-      "word": "carne",
-      "clues": [
-        "Es el tejido muscular de los animales.",
-        "Se consume como alimento.",
-        "Puede ser de res, cerdo, pollo, etc."
-      ]
-    },
-    {
-      "word": "pescado",
-      "clues": [
-        "Es un animal acuático con aletas y escamas.",
-        "Se captura en el mar o ríos para comer.",
-        "Es una fuente de proteínas y omega-3."
-      ]
-    }
-  ]
+  {
+    "word": "elefante",
+    "clues": [
+      "Es un animal grande y gris.",
+      "Tiene una trompa muy larga.",
+      "Puede vivir en la sabana africana o en la selva."
+    ]
+  },
+  {
+    "word": "guitarra",
+    "clues": [
+      "Es un instrumento musical de cuerda.",
+      "Se usa en muchos géneros como el rock o el flamenco.",
+      "Requiere el uso de ambas manos para tocarla."
+    ]
+  },
+  {
+    "word": "sol",
+    "clues": [
+      "Es una estrella que ilumina nuestro planeta.",
+      "Nos proporciona luz y calor.",
+      "Es el centro de nuestro sistema solar."
+    ]
+  },
+  {
+    "word": "chocolate",
+    "clues": [
+      "Es un dulce muy popular.",
+      "Se obtiene de la semilla del cacao.",
+      "Puede ser amargo, con leche o blanco."
+    ]
+  },
+  {
+    "word": "ordenador",
+    "clues": [
+      "Es una máquina electrónica para procesar información.",
+      "Permite navegar por internet, trabajar o jugar.",
+      "Puede ser de escritorio o portátil."
+    ]
+  },
+  {
+    "word": "libro",
+    "clues": [
+      "Contiene historias, información o conocimientos.",
+      "Sus páginas están encuadernadas.",
+      "Se lee para aprender o entretenerse."
+    ]
+  },
+  {
+    "word": "cafe",
+    "clues": [
+      "Es una bebida popular que se toma caliente.",
+      "Se prepara con granos tostados y molidos.",
+      "Muchos lo toman por la mañana para activarse."
+    ]
+  },
+  {
+    "word": "bicicleta",
+    "clues": [
+      "Es un medio de transporte de dos ruedas.",
+      "Se impulsa pedaleando.",
+      "Es ecológico y bueno para la salud."
+    ]
+  },
+  {
+    "word": "reloj",
+    "clues": [
+      "Sirve para medir el tiempo.",
+      "Puede llevarse en la muñeca o estar en una pared.",
+      "Tiene agujas o una pantalla digital."
+    ]
+  },
+  {
+    "word": "telefono",
+    "clues": [
+      "Permite la comunicación a distancia.",
+      "Puede ser fijo o móvil.",
+      "Hoy en día, muchos tienen acceso a internet."
+    ]
+  },
+  {
+    "word": "agua",
+    "clues": [
+      "Es un líquido vital para la vida.",
+      "Cubre gran parte de la superficie terrestre.",
+      "No tiene color, sabor ni olor."
+    ]
+  },
+  {
+    "word": "arbol",
+    "clues": [
+      "Es una planta de tronco leñoso y ramas.",
+      "Produce oxígeno y frutos.",
+      "Forma parte de bosques y jardines."
+    ]
+  },
+  {
+    "word": "puerta",
+    "clues": [
+      "Sirve para entrar o salir de un lugar.",
+      "Puede ser de madera, metal o vidrio.",
+      "Tiene bisagras y una cerradura."
+    ]
+  },
+  {
+    "word": "flor",
+    "clues": [
+      "Es la parte más vistosa de una planta.",
+      "Atrae a insectos para la polinización.",
+      "A menudo se regala como muestra de afecto."
+    ]
+  },
+  {
+    "word": "coche",
+    "clues": [
+      "Es un vehículo de cuatro ruedas.",
+      "Se usa para transportar personas o carga.",
+      "Necesita combustible para funcionar."
+    ]
+  },
+  {
+    "word": "mesa",
+    "clues": [
+      "Es un mueble con una superficie plana y patas.",
+      "Se usa para comer, trabajar o apoyar objetos.",
+      "Puede ser de madera, metal o cristal."
+    ]
+  },
+  {
+    "word": "silla",
+    "clues": [
+      "Es un mueble diseñado para sentarse.",
+      "Tiene respaldo y, a veces, reposabrazos.",
+      "Puede ser de diferentes materiales y estilos."
+    ]
+  },
+  {
+    "word": "perro",
+    "clues": [
+      "Es un animal doméstico muy leal.",
+      "Es conocido como 'el mejor amigo del hombre'.",
+      "Puede ladrar y mover la cola."
+    ]
+  },
+  {
+    "word": "gato",
+    "clues": [
+      "Es un animal doméstico independiente.",
+      "Le gusta cazar ratones y dormir mucho.",
+      "Puede maullar y ronronear."
+    ]
+  },
+  {
+    "word": "casa",
+    "clues": [
+      "Es una construcción donde vive una familia.",
+      "Tiene habitaciones, cocina y baños.",
+      "Ofrece refugio y seguridad."
+    ]
+  },
+  {
+    "word": "escuela",
+    "clues": [
+      "Es un lugar donde los niños van a aprender.",
+      "Hay maestros y alumnos.",
+      "Se enseñan diversas materias."
+    ]
+  },
+  {
+    "word": "medico",
+    "clues": [
+      "Es un profesional que cura enfermedades.",
+      "Trabaja en hospitales o consultorios.",
+      "Examina a los pacientes y receta medicamentos."
+    ]
+  },
+  {
+    "word": "platano",
+    "clues": [
+      "Es una fruta amarilla y alargada.",
+      "Crece en racimos.",
+      "Es una buena fuente de potasio."
+    ]
+  },
+  {
+    "word": "nube",
+    "clues": [
+      "Se forma por vapor de agua en la atmósfera.",
+      "Puede ser blanca o gris.",
+      "A veces trae lluvia o tormentas."
+    ]
+  },
+  {
+    "word": "montaña",
+    "clues": [
+      "Es una gran elevación natural de terreno.",
+      "Puede tener picos nevados.",
+      "Es un lugar para hacer senderismo o escalar."
+    ]
+  },
+  {
+    "word": "rio",
+    "clues": [
+      "Es una corriente natural de agua dulce.",
+      "Fluye hacia un mar, lago u otro río.",
+      "Es hábitat de peces y otras especies."
+    ]
+  },
+  {
+    "word": "oceano",
+    "clues": [
+      "Es una gran extensión de agua salada.",
+      "Cubre la mayor parte del planeta.",
+      "Es el hogar de ballenas y tiburones."
+    ]
+  },
+  {
+    "word": "estrella",
+    "clues": [
+      "Es un cuerpo celeste que emite luz propia.",
+      "Se ven muchas en el cielo nocturno.",
+      "El Sol es una de ellas."
+    ]
+  },
+  {
+    "word": "luna",
+    "clues": [
+      "Es el satélite natural de la Tierra.",
+      "Refleja la luz del Sol.",
+      "Tiene fases: llena, nueva, cuarto creciente, etc."
+    ]
+  },
+  {
+    "word": "nieve",
+    "clues": [
+      "Es agua congelada que cae en forma de cristales.",
+      "Cubre el paisaje de blanco en invierno.",
+      "Sirve para esquiar o hacer muñecos."
+    ]
+  },
+  {
+    "word": "fuego",
+    "clues": [
+      "Es una reacción química que produce luz y calor.",
+      "Puede ser destructivo o útil (para cocinar).",
+      "Se usa para calentar o iluminar."
+    ]
+  },
+  {
+    "word": "viento",
+    "clues": [
+      "Es el aire en movimiento.",
+      "Puede mover molinos o hacer volar cometas.",
+      "A veces es suave y una brisa, otras muy fuerte."
+    ]
+  },
+  {
+    "word": "lluvia",
+    "clues": [
+      "Es agua que cae de las nubes.",
+      "Es esencial para las plantas y los cultivos.",
+      "Se usa un paraguas para protegerse de ella."
+    ]
+  },
+  {
+    "word": "paraguas",
+    "clues": [
+      "Se usa para protegerse de la lluvia o el sol.",
+      "Puede plegarse para guardarlo.",
+      "Tiene una varilla central y costillas."
+    ]
+  },
+  {
+    "word": "zapato",
+    "clues": [
+      "Se usa para cubrir y proteger el pie.",
+      "Hay de muchos tipos: deportivos, de vestir, sandalias.",
+      "Puede tener cordones o hebillas."
+    ]
+  },
+  {
+    "word": "camiseta",
+    "clues": [
+      "Es una prenda de vestir para la parte superior del cuerpo.",
+      "Suele ser de algodón y tener mangas cortas.",
+      "Es muy común y cómoda."
+    ]
+  },
+  {
+    "word": "pantalon",
+    "clues": [
+      "Es una prenda de vestir para las piernas.",
+      "Puede ser vaquero, de tela, corto o largo.",
+      "Se ajusta a la cintura."
+    ]
+  },
+  {
+    "word": "sombrero",
+    "clues": [
+      "Se usa en la cabeza para protegerse del sol o por moda.",
+      "Puede tener ala o no.",
+      "Hay muchos estilos: gorra, fedora, boina."
+    ]
+  },
+  {
+    "word": "cuchillo",
+    "clues": [
+      "Es un utensilio de cocina con hoja afilada.",
+      "Sirve para cortar alimentos.",
+      "Debe usarse con precaución."
+    ]
+  },
+  {
+    "word": "tenedor",
+    "clues": [
+      "Es un utensilio con dientes o púas.",
+      "Se usa para pinchar alimentos y llevarlos a la boca.",
+      "Es parte de los cubiertos de mesa."
+    ]
+  },
+  {
+    "word": "cuchara",
+    "clues": [
+      "Es un utensilio con una concavidad.",
+      "Sirve para tomar líquidos o alimentos blandos.",
+      "Se usa para comer sopa o postres."
+    ]
+  },
+  {
+    "word": "plato",
+    "clues": [
+      "Es un recipiente plano o ligeramente cóncavo.",
+      "Se usa para servir y comer alimentos.",
+      "Puede ser de cerámica, vidrio o plástico."
+    ]
+  },
+  {
+    "word": "vaso",
+    "clues": [
+      "Es un recipiente sin asa.",
+      "Se usa para beber líquidos.",
+      "Suele ser de vidrio o plástico."
+    ]
+  },
+  {
+    "word": "lapiz",
+    "clues": [
+      "Es un instrumento para escribir o dibujar.",
+      "Deja una marca de grafito.",
+      "Se le saca punta cuando se gasta."
+    ]
+  },
+  {
+    "word": "papel",
+    "clues": [
+      "Material fino hecho de celulosa.",
+      "Se usa para escribir, dibujar o imprimir.",
+      "Puede ser blanco o de colores."
+    ]
+  },
+  {
+    "word": "tijeras",
+    "clues": [
+      "Es una herramienta con dos cuchillas cruzadas.",
+      "Se usa para cortar papel, tela o pelo.",
+      "Requiere el uso de los dedos para operarlas."
+    ]
+  },
+  {
+    "word": "boligrafo",
+    "clues": [
+      "Es un instrumento de escritura con tinta.",
+      "Tiene una punta de bola que distribuye la tinta.",
+      "Reemplazó a la pluma en popularidad."
+    ]
+  },
+  {
+    "word": "teclado",
+    "clues": [
+      "Es un periférico de entrada de un ordenador.",
+      "Contiene letras, números y símbolos.",
+      "Se usa para escribir texto."
+    ]
+  },
+  {
+    "word": "raton",
+    "clues": [
+      "Es un periférico de entrada de un ordenador.",
+      "Se mueve sobre una superficie para controlar el cursor.",
+      "Tiene botones para hacer clic."
+    ]
+  },
+  {
+    "word": "pantalla",
+    "clues": [
+      "Es la superficie donde se muestra la imagen.",
+      "Puede ser de un televisor, ordenador o teléfono.",
+      "Permite interactuar con la interfaz gráfica."
+    ]
+  },
+  {
+    "word": "camara",
+    "clues": [
+      "Es un dispositivo para capturar imágenes o videos.",
+      "Puede ser digital o analógica.",
+      "Se usa para preservar recuerdos."
+    ]
+  },
+  {
+    "word": "musica",
+    "clues": [
+      "Es el arte de combinar sonidos.",
+      "Se puede escuchar con instrumentos o voces.",
+      "Evoca emociones y se usa para bailar."
+    ]
+  },
+  {
+    "word": "pelota",
+    "clues": [
+      "Es un objeto esférico usado en muchos deportes.",
+      "Puede ser de fútbol, baloncesto, tenis.",
+      "Se patea, se lanza o se golpea."
+    ]
+  },
+  {
+    "word": "balon",
+    "clues": [
+      "Es similar a una pelota, pero a menudo más grande.",
+      "Se usa en deportes como el fútbol o baloncesto.",
+      "Se infla con aire."
+    ]
+  },
+  {
+    "word": "juego",
+    "clues": [
+      "Es una actividad recreativa para divertirse.",
+      "Puede tener reglas y objetivos.",
+      "Hay de mesa, de cartas, de video."
+    ]
+  },
+  {
+    "word": "familia",
+    "clues": [
+      "Es el grupo de personas unidas por parentesco.",
+      "Incluye padres, hermanos, hijos, etc.",
+      "Generalmente comparten un hogar."
+    ]
+  },
+  {
+    "word": "amigo",
+    "clues": [
+      "Es una persona con la que se tiene una relación de afecto.",
+      "Ofrece apoyo y compañía.",
+      "Puedes compartir secretos con él o ella."
+    ]
+  },
+  {
+    "word": "ciudad",
+    "clues": [
+      "Es un gran centro urbano con muchos edificios.",
+      "Tiene calles, plazas y transporte público.",
+      "Suele ser un centro económico y cultural."
+    ]
+  },
+  {
+    "word": "pueblo",
+    "clues": [
+      "Es una localidad más pequeña que una ciudad.",
+      "Generalmente tiene menos habitantes.",
+      "Suele tener un ambiente más tranquilo."
+    ]
+  },
+  {
+    "word": "hospital",
+    "clues": [
+      "Es un lugar donde se atiende a los enfermos y heridos.",
+      "Trabajan médicos y enfermeras.",
+      "Tiene quirófanos y salas de emergencia."
+    ]
+  },
+  {
+    "word": "supermercado",
+    "clues": [
+      "Es una tienda grande donde se venden alimentos y productos para el hogar.",
+      "Tiene diferentes pasillos y cajas.",
+      "Puedes encontrar frutas, verduras, carne, etc."
+    ]
+  },
+  {
+    "word": "restaurante",
+    "clues": [
+      "Es un establecimiento donde se preparan y sirven comidas.",
+      "La gente va a comer fuera de casa.",
+      "Ofrecen un menú con diversas opciones."
+    ]
+  },
+  {
+    "word": "aeropuerto",
+    "clues": [
+      "Es un lugar donde aterrizan y despegan aviones.",
+      "Tiene pistas y terminales.",
+      "Es un punto de partida para viajes largos."
+    ]
+  },
+  {
+    "word": "tren",
+    "clues": [
+      "Es un medio de transporte que viaja sobre rieles.",
+      "Arrastra vagones llenos de pasajeros o carga.",
+      "Puede ser de alta velocidad o de cercanías."
+    ]
+  },
+  {
+    "word": "autobus",
+    "clues": [
+      "Es un vehículo grande para transportar muchas personas.",
+      "Hace rutas fijas con paradas.",
+      "Es un transporte público urbano o interurbano."
+    ]
+  },
+  {
+    "word": "barco",
+    "clues": [
+      "Es un vehículo que navega sobre el agua.",
+      "Puede ser pequeño (bote) o muy grande (crucero).",
+      "Se usa para pesca, transporte o recreo."
+    ]
+  },
+  {
+    "word": "avion",
+    "clues": [
+      "Es un vehículo que vuela por el aire.",
+      "Tiene alas y motores.",
+      "Se usa para viajar distancias largas rápidamente."
+    ]
+  },
+  {
+    "word": "policia",
+    "clues": [
+      "Es una fuerza de seguridad pública.",
+      "Mantiene el orden y combate el crimen.",
+      "Usa uniforme y, a veces, patrullas."
+    ]
+  },
+  {
+    "word": "bombero",
+    "clues": [
+      "Es un profesional que apaga incendios.",
+      "Rescata personas de accidentes o desastres.",
+      "Usa una manguera y un camión especial."
+    ]
+  },
+  {
+    "word": "profesor",
+    "clues": [
+      "Es una persona que enseña en una escuela o universidad.",
+      "Comparte conocimientos con sus alumnos.",
+      "Evalúa y califica el aprendizaje."
+    ]
+  },
+  {
+    "word": "estudiante",
+    "clues": [
+      "Es una persona que asiste a una institución educativa.",
+      "Aprende de los profesores y estudia.",
+      "Hace tareas y exámenes."
+    ]
+  },
+  {
+    "word": "doctor",
+    "clues": [
+      "Diagnostica y trata enfermedades.",
+      "Trabaja en un hospital o clínica.",
+      "Prescribe medicamentos o tratamientos."
+    ]
+  },
+  {
+    "word": "enfermera",
+    "clues": [
+      "Asiste al médico en el cuidado de los pacientes.",
+      "Administra medicamentos y realiza curas.",
+      "Trabaja en hospitales, clínicas o residencias."
+    ]
+  },
+  {
+    "word": "artista",
+    "clues": [
+      "Crea obras de arte como pinturas, esculturas o música.",
+      "Expresa su creatividad.",
+      "Puede trabajar con pinceles, cinceles o instrumentos."
+    ]
+  },
+  {
+    "word": "cantante",
+    "clues": [
+      "Utiliza su voz como instrumento musical.",
+      "Interpreta canciones en solitario o en grupo.",
+      "Actúa en conciertos o grabaciones."
+    ]
+  },
+  {
+    "word": "bailarin",
+    "clues": [
+      "Expresa emociones a través del movimiento corporal.",
+      "Puede practicar ballet, salsa, hip hop.",
+      "Se presenta en escenarios."
+    ]
+  },
+  {
+    "word": "deporte",
+    "clues": [
+      "Es una actividad física reglamentada.",
+      "Puede ser individual o en equipo.",
+      "Sirve para mantenerse en forma y competir."
+    ]
+  },
+  {
+    "word": "futbol",
+    "clues": [
+      "Es el deporte más popular del mundo.",
+      "Se juega con los pies para meter un gol.",
+      "Se juega en un campo con dos porterías."
+    ]
+  },
+  {
+    "word": "baloncesto",
+    "clues": [
+      "Es un deporte de equipo con un balón.",
+      "Se encesta el balón en un aro elevado.",
+      "Se juega en una cancha con canastas."
+    ]
+  },
+  {
+    "word": "natacion",
+    "clues": [
+      "Es un deporte que se practica en el agua.",
+      "Se usan brazos y piernas para impulsarse.",
+      "Puede ser en piscina, río o mar."
+    ]
+  },
+  {
+    "word": "correr",
+    "clues": [
+      "Es una actividad física que implica moverse rápidamente.",
+      "Se puede hacer en una pista, calle o montaña.",
+      "Es un ejercicio aeróbico."
+    ]
+  },
+  {
+    "word": "leer",
+    "clues": [
+      "Es la acción de interpretar textos escritos.",
+      "Se hace con libros, periódicos o pantallas.",
+      "Permite adquirir conocimientos o entretenerse."
+    ]
+  },
+  {
+    "word": "escribir",
+    "clues": [
+      "Es la acción de plasmar ideas con letras y palabras.",
+      "Se usa un lápiz, bolígrafo o teclado.",
+      "Se puede hacer una carta, un cuento o un informe."
+    ]
+  },
+  {
+    "word": "dibujar",
+    "clues": [
+      "Es la acción de crear imágenes con líneas y formas.",
+      "Se puede usar lápiz, carboncillo o colores.",
+      "Requiere creatividad y habilidad manual."
+    ]
+  },
+  {
+    "word": "cocinar",
+    "clues": [
+      "Es el arte de preparar alimentos para comer.",
+      "Se usan ingredientes y utensilios de cocina.",
+      "Puede implicar hornear, freír o hervir."
+    ]
+  },
+  {
+    "word": "bailar",
+    "clues": [
+      "Es mover el cuerpo al ritmo de la música.",
+      "Puede ser en solitario, en pareja o en grupo.",
+      "Hay muchos estilos como salsa, tango o ballet."
+    ]
+  },
+  {
+    "word": "dormir",
+    "clues": [
+      "Es un estado de reposo natural del cuerpo y la mente.",
+      "Es esencial para recuperar energía.",
+      "Se hace en una cama o en un sofá."
+    ]
+  },
+  {
+    "word": "comer",
+    "clues": [
+      "Es la acción de ingerir alimentos para nutrirse.",
+      "Se hace varias veces al día.",
+      "Es una necesidad básica del ser humano."
+    ]
+  },
+  {
+    "word": "beber",
+    "clues": [
+      "Es la acción de ingerir líquidos.",
+      "Se usa un vaso, una taza o una botella.",
+      "Es fundamental para la hidratación."
+    ]
+  },
+  {
+    "word": "trabajar",
+    "clues": [
+      "Es la actividad que se realiza para obtener un beneficio.",
+      "Puede ser remunerado o voluntario.",
+      "Contribuye a la sociedad o a un proyecto."
+    ]
+  },
+  {
+    "word": "estudiar",
+    "clues": [
+      "Es el acto de adquirir conocimientos mediante la lectura o el análisis.",
+      "Se hace para aprender una materia o preparar un examen.",
+      "Requiere concentración y dedicación."
+    ]
+  },
+  {
+    "word": "jugar",
+    "clues": [
+      "Es una actividad recreativa o deportiva.",
+      "Se hace para divertirse o competir.",
+      "Es común en niños, pero también en adultos."
+    ]
+  },
+  {
+    "word": "cielo",
+    "clues": [
+      "Es la bóveda azul que vemos sobre nosotros.",
+      "De día tiene nubes, de noche estrellas y la luna.",
+      "Es donde vuelan los pájaros y los aviones."
+    ]
+  },
+  {
+    "word": "tierra",
+    "clues": [
+      "Es el planeta en el que vivimos.",
+      "Está cubierta por agua y continentes.",
+      "Es el tercer planeta desde el Sol."
+    ]
+  },
+  {
+    "word": "mar",
+    "clues": [
+      "Es una gran masa de agua salada.",
+      "Es más pequeño que un océano.",
+      "Es un lugar para nadar o navegar."
+    ]
+  },
+  {
+    "word": "arena",
+    "clues": [
+      "Son partículas pequeñas de roca o coral.",
+      "Se encuentra en playas y desiertos.",
+      "Se usa para construir castillos."
+    ]
+  },
+  {
+    "word": "piedra",
+    "clues": [
+      "Es un material duro y sólido.",
+      "Se encuentra en la naturaleza y se usa en construcción.",
+      "Puede ser de diferentes tamaños y formas."
+    ]
+  },
+  {
+    "word": "madera",
+    "clues": [
+      "Es un material natural que proviene de los árboles.",
+      "Se usa para construir muebles, casas o papel.",
+      "Es un combustible en las chimeneas."
+    ]
+  },
+  {
+    "word": "metal",
+    "clues": [
+      "Es un material duro, brillante y conductor.",
+      "Se usa para fabricar herramientas, coches o joyas.",
+      "Ejemplos son el hierro, el oro o el cobre."
+    ]
+  },
+  {
+    "word": "plastico",
+    "clues": [
+      "Es un material sintético, ligero y moldeable.",
+      "Se usa para hacer envases, juguetes o tuberías.",
+      "Puede ser reciclado, pero es contaminante."
+    ]
+  },
+  {
+    "word": "vidrio",
+    "clues": [
+      "Es un material transparente y frágil.",
+      "Se usa para hacer ventanas, botellas o vasos.",
+      "Se fabrica a partir de arena de sílice."
+    ]
+  },
+  {
+    "word": "algodon",
+    "clues": [
+      "Es una fibra natural suave.",
+      "Se usa para fabricar ropa, toallas o gasas.",
+      "Proviene de una planta."
+    ]
+  },
+  {
+    "word": "lana",
+    "clues": [
+      "Es una fibra natural que proviene de las ovejas.",
+      "Se usa para hacer ropa de abrigo como suéteres.",
+      "Es suave y mantiene el calor."
+    ]
+  },
+  {
+    "word": "seda",
+    "clues": [
+      "Es una fibra natural muy fina y brillante.",
+      "Proviene de los capullos de un gusano.",
+      "Se usa para fabricar ropa de lujo o pañuelos."
+    ]
+  },
+  {
+    "word": "oro",
+    "clues": [
+      "Es un metal precioso y brillante.",
+      "Se usa para hacer joyas, monedas o lingotes.",
+      "Es muy valioso y no se oxida."
+    ]
+  },
+  {
+    "word": "plata",
+    "clues": [
+      "Es un metal precioso, blanco y brillante.",
+      "Se usa para hacer joyas, cubiertos o espejos.",
+      "Es menos valioso que el oro."
+    ]
+  },
+  {
+    "word": "cobre",
+    "clues": [
+      "Es un metal rojizo, muy buen conductor eléctrico.",
+      "Se usa para cables, tuberías o monedas.",
+      "Es dúctil y maleable."
+    ]
+  },
+  {
+    "word": "hierro",
+    "clues": [
+      "Es un metal común y muy resistente.",
+      "Se usa en la construcción, herramientas y maquinaria.",
+      "Se oxida fácilmente si no se protege."
+    ]
+  },
+  {
+    "word": "azucar",
+    "clues": [
+      "Es un edulcorante que se extrae de la caña o la remolacha.",
+      "Se usa para endulzar bebidas o postres.",
+      "Es de color blanco y tiene forma de gránulos."
+    ]
+  },
+  {
+    "word": "sal",
+    "clues": [
+      "Es un mineral usado para sazonar alimentos.",
+      "Puede ser marina o de roca.",
+      "Es esencial para la vida en pequeñas cantidades."
+    ]
+  },
+  {
+    "word": "pimienta",
+    "clues": [
+      "Es una especia picante, a menudo negra o blanca.",
+      "Se usa molida para condimentar comidas.",
+      "Proviene de una planta trepadora."
+    ]
+  },
+  {
+    "word": "aceite",
+    "clues": [
+      "Es un líquido graso de origen vegetal o animal.",
+      "Se usa para cocinar, aliñar o como combustible.",
+      "Ejemplos son el de oliva, girasol o maíz."
+    ]
+  },
+  {
+    "word": "vinagre",
+    "clues": [
+      "Es un líquido ácido producido por la fermentación.",
+      "Se usa para aliñar ensaladas o conservar alimentos.",
+      "Puede ser de vino, manzana o arroz."
+    ]
+  },
+  {
+    "word": "pan",
+    "clues": [
+      "Es un alimento básico hecho de harina, agua y levadura.",
+      "Se hornea y se consume en rebanadas o piezas.",
+      "Puede ser blanco, integral o de centeno."
+    ]
+  },
+  {
+    "word": "queso",
+    "clues": [
+      "Es un alimento sólido que se obtiene de la leche.",
+      "Hay muchos tipos: fresco, curado, azul.",
+      "Se puede comer solo o en sándwiches y pizzas."
+    ]
+  },
+  {
+    "word": "huevo",
+    "clues": [
+      "Es un alimento ovalado puesto por las aves.",
+      "Tiene clara y yema.",
+      "Se puede freír, cocer o usar en repostería."
+    ]
+  },
+  {
+    "word": "leche",
+    "clues": [
+      "Es un líquido blanco producido por mamíferos.",
+      "Es una bebida nutritiva, especialmente para bebés.",
+      "Se usa para hacer yogur, queso y mantequilla."
+    ]
+  },
+  {
+    "word": "carne",
+    "clues": [
+      "Es el tejido muscular de los animales.",
+      "Se consume como alimento.",
+      "Puede ser de res, cerdo, pollo, etc."
+    ]
+  },
+  {
+    "word": "pescado",
+    "clues": [
+      "Es un animal acuático con aletas y escamas.",
+      "Se captura en el mar o ríos para comer.",
+      "Es una fuente de proteínas y omega-3."
+    ]
+  },
+  {
+    "word": "ventana",
+    "clues": [
+      "Es una abertura en una pared para dejar pasar luz o aire.",
+      "Suele tener cristal y un marco.",
+      "Se puede abrir y cerrar."
+    ]
+  },
+  {
+    "word": "espejo",
+    "clues": [
+      "Es una superficie que refleja imágenes.",
+      "Se usa para verse a uno mismo.",
+      "Puede ser de mano o de pared."
+    ]
+  },
+  {
+    "word": "cama",
+    "clues": [
+      "Es un mueble donde se duerme.",
+      "Suele tener colchón, almohada y sábanas.",
+      "Se encuentra en el dormitorio."
+    ]
+  },
+  {
+    "word": "nevera",
+    "clues": [
+      "Es un electrodoméstico que mantiene los alimentos fríos.",
+      "Tiene un congelador para conservar el hielo.",
+      "Se abre para guardar o sacar comida."
+    ]
+  },
+  {
+    "word": "lavadora",
+    "clues": [
+      "Es un electrodoméstico para limpiar la ropa.",
+      "Utiliza agua y jabón.",
+      "Tiene diferentes ciclos de lavado."
+    ]
+  },
+  {
+    "word": "horno",
+    "clues": [
+      "Es un electrodoméstico para cocinar alimentos con calor seco.",
+      "Se usa para hornear pasteles, pan o asar carne.",
+      "Puede ser de gas o eléctrico."
+    ]
+  },
+  {
+    "word": "television",
+    "clues": [
+      "Es un electrodoméstico para ver programas y películas.",
+      "Tiene una pantalla y se controla con un mando a distancia.",
+      "Ofrece noticias y entretenimiento."
+    ]
+  },
+  {
+    "word": "radio",
+    "clues": [
+      "Es un aparato para escuchar programas de audio.",
+      "Funciona con ondas de frecuencia.",
+      "Puedes sintonizar emisoras de música, noticias o charlas."
+    ]
+  },
+  {
+    "word": "percha",
+    "clues": [
+      "Es un colgador para la ropa.",
+      "Se usa dentro de armarios o en ganchos.",
+      "Evita que la ropa se arrugue."
+    ]
+  },
+  {
+    "word": "bolso",
+    "clues": [
+      "Es un accesorio para llevar objetos personales.",
+      "Las mujeres suelen llevarlo al hombro o en la mano.",
+      "Contiene llaves, cartera, teléfono, etc."
+    ]
+  },
+  {
+    "word": "cartera",
+    "clues": [
+      "Es un estuche para guardar dinero, tarjetas e identificaciones.",
+      "Se lleva en el bolsillo o en un bolso.",
+      "Puede ser de cuero o tela."
+    ]
+  },
+  {
+    "word": "llave",
+    "clues": [
+      "Es una herramienta para abrir o cerrar cerraduras.",
+      "Suele ser metálica y tener una forma única.",
+      "Las llevamos en un llavero."
+    ]
+  },
+  {
+    "word": "moneda",
+    "clues": [
+      "Es una pieza de metal redonda usada como dinero.",
+      "Tiene un valor específico y se usa para pagar.",
+      "Puede ser de diferentes tamaños y diseños."
+    ]
+  },
+  {
+    "word": "billete",
+    "clues": [
+      "Es una pieza de papel usada como dinero.",
+      "Tiene un valor mayor que una moneda.",
+      "Se guardan en la cartera y son de diferentes colores."
+    ]
+  },
+  {
+    "word": "mochila",
+    "clues": [
+      "Es una bolsa que se lleva a la espalda.",
+      "Se usa para transportar libros, ropa o equipo.",
+      "Tiene tirantes y a menudo varios compartimentos."
+    ]
+  },
+  {
+    "word": "gafas",
+    "clues": [
+      "Son un accesorio para mejorar la vista o proteger los ojos.",
+      "Pueden tener cristales graduados o ser de sol.",
+      "Se apoyan en la nariz y las orejas."
+    ]
+  },
+  {
+    "word": "sombrilla",
+    "clues": [
+      "Es similar a un paraguas, pero más grande y para el sol.",
+      "Se usa en la playa o terrazas para dar sombra.",
+      "Tiene un mástil central que se clava o se apoya."
+    ]
+  },
+  {
+    "word": "toalla",
+    "clues": [
+      "Es un trozo de tela absorbente.",
+      "Se usa para secarse el cuerpo o el pelo.",
+      "La usamos después de ducharnos o en la playa."
+    ]
+  },
+  {
+    "word": "cepillo",
+    "clues": [
+      "Es una herramienta con cerdas.",
+      "Se usa para peinar el cabello, limpiar o cepillar dientes.",
+      "Hay de diferentes tamaños y durezas."
+    ]
+  },
+  {
+    "word": "jabón",
+    "clues": [
+      "Es un producto que se usa para limpiar.",
+      "Produce espuma con agua.",
+      "Puede ser en barra o líquido."
+    ]
+  },
+  {
+    "word": "champú",
+    "clues": [
+      "Es un líquido para lavar el cabello.",
+      "Produce espuma y tiene un aroma agradable.",
+      "Se aclara con agua."
+    ]
+  },
+  {
+    "word": "dientes",
+    "clues": [
+      "Son estructuras duras en la boca para masticar.",
+      "Son de color blanco y se deben cepillar.",
+      "Tenemos de leche y permanentes."
+    ]
+  },
+  {
+    "word": "lengua",
+    "clues": [
+      "Es un órgano muscular en la boca.",
+      "Sirve para saborear, hablar y tragar.",
+      "Es flexible y se puede mover en todas direcciones."
+    ]
+  },
+  {
+    "word": "ojo",
+    "clues": [
+      "Es el órgano principal de la vista.",
+      "Tenemos dos y nos permiten ver el mundo.",
+      "Tiene pupila, iris y párpados."
+    ]
+  },
+  {
+    "word": "nariz",
+    "clues": [
+      "Es la parte del cuerpo que usamos para oler.",
+      "Está en el centro de la cara.",
+      "También sirve para respirar."
+    ]
+  },
+  {
+    "word": "oreja",
+    "clues": [
+      "Es la parte del cuerpo que usamos para oír.",
+      "Tenemos dos, a cada lado de la cabeza.",
+      "Podemos llevar pendientes en ella."
+    ]
+  },
+  {
+    "word": "boca",
+    "clues": [
+      "Es la abertura en la cara que usamos para comer y hablar.",
+      "Contiene los labios, los dientes y la lengua.",
+      "Podemos sonreír o besar con ella."
+    ]
+  },
+  {
+    "word": "mano",
+    "clues": [
+      "Es la extremidad del brazo con dedos.",
+      "La usamos para agarrar, tocar y escribir.",
+      "Tenemos dos, izquierda y derecha."
+    ]
+  },
+  {
+    "word": "pie",
+    "clues": [
+      "Es la parte final de la pierna que nos permite caminar.",
+      "Contiene dedos y el talón.",
+      "Se cubre con calcetines y zapatos."
+    ]
+  },
+  {
+    "word": "cabeza",
+    "clues": [
+      "Es la parte superior del cuerpo donde está el cerebro.",
+      "Contiene la cara, el pelo, los ojos, la nariz y la boca.",
+      "Nos permite pensar y percibir el mundo."
+    ]
+  },
+  {
+    "word": "brazo",
+    "clues": [
+      "Es la extremidad superior del cuerpo.",
+      "Va del hombro a la mano.",
+      "Lo usamos para levantar, empujar o abrazar."
+    ]
+  },
+  {
+    "word": "pierna",
+    "clues": [
+      "Es la extremidad inferior del cuerpo.",
+      "Va de la cadera al pie.",
+      "La usamos para caminar, correr y saltar."
+    ]
+  },
+  {
+    "word": "corazon",
+    "clues": [
+      "Es un órgano vital que bombea sangre.",
+      "Está en el pecho y late constantemente.",
+      "Se asocia con el amor y las emociones."
+    ]
+  },
+  {
+    "word": "cerebro",
+    "clues": [
+      "Es el órgano principal del sistema nervioso.",
+      "Está en la cabeza y nos permite pensar y sentir.",
+      "Controla todas las funciones del cuerpo."
+    ]
+  },
+  {
+    "word": "sangre",
+    "clues": [
+      "Es un líquido rojo que circula por el cuerpo.",
+      "Transporta oxígeno y nutrientes.",
+      "Sale cuando nos hacemos una herida."
+    ]
+  },
+  {
+    "word": "hueso",
+    "clues": [
+      "Es una parte dura del esqueleto.",
+      "Nos da soporte y protege los órganos.",
+      "Si se rompe, se hace una fractura."
+    ]
+  },
+  {
+    "word": "piel",
+    "clues": [
+      "Es el órgano más grande del cuerpo.",
+      "Nos cubre y protege de agentes externos.",
+      "Tiene diferentes tonos y texturas."
+    ]
+  },
+  {
+    "word": "pelo",
+    "clues": [
+      "Son filamentos que crecen en la cabeza y el cuerpo.",
+      "Puede ser liso, rizado, rubio, moreno.",
+      "Se corta y se peina."
+    ]
+  },
+  {
+    "word": "naraja",
+    "clues": [
+      "Es una fruta cítrica, redonda y de color llamativo.",
+      "Es rica en vitamina C.",
+      "Se puede comer entera o hacer zumo."
+    ]
+  },
+  {
+    "word": "manzana",
+    "clues": [
+      "Es una fruta redonda, dulce y crujiente.",
+      "Puede ser roja, verde o amarilla.",
+      "Es común decir que 'una al día al médico aleja'."
+    ]
+  },
+  {
+    "word": "uva",
+    "clues": [
+      "Es una fruta pequeña que crece en racimos.",
+      "Puede ser verde o morada.",
+      "Se usa para hacer vino."
+    ]
+  },
+  {
+    "word": "fresa",
+    "clues": [
+      "Es una fruta pequeña, roja y dulce.",
+      "Tiene pequeñas semillas por fuera.",
+      "Es popular en postres y mermeladas."
+    ]
+  },
+  {
+    "word": "pera",
+    "clues": [
+      "Es una fruta dulce con forma de lágrima.",
+      "Tiene una textura jugosa y granulosa.",
+      "Puede ser verde o amarilla."
+    ]
+  },
+  {
+    "word": "limon",
+    "clues": [
+      "Es una fruta cítrica amarilla y muy ácida.",
+      "Se usa para aderezar comidas o hacer limonada.",
+      "Tiene mucha vitamina C."
+    ]
+  },
+  {
+    "word": "zanahoria",
+    "clues": [
+      "Es una verdura de raíz, de color naranja.",
+      "Es buena para la vista.",
+      "Se puede comer cruda o cocida."
+    ]
+  },
+  {
+    "word": "tomate",
+    "clues": [
+      "Es una fruta roja, aunque se usa como verdura.",
+      "Es redondo y jugoso.",
+      "Se usa en ensaladas, salsas o gazpacho."
+    ]
+  },
+  {
+    "word": "patata",
+    "clues": [
+      "Es una verdura de tubérculo, muy versátil.",
+      "Se usa para hacer papas fritas, puré o tortilla.",
+      "Crece bajo tierra."
+    ]
+  }
+]
