@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, } from "react"
+import  { useCallback, useMemo, useRef, } from "react"
 import { HideLevels, Word } from "../../core"
 import LetterInput from "./LetterInput"
 import { AnimatePresence, motion } from 'motion/react'
@@ -42,28 +42,25 @@ export default function WordInput({ word, onSuccess }: Properties) {
       return true
     }
     else return false
-  }, [inputRefs, word])
-  useEffect(() => {
-    next(-1)
-  }, [clue])
-
+  }, [word])
+  const renderInput = useCallback((letter: string, index: number) => <LetterInput index={index} ref={(self) => {
+    inputRefs.current[index] = self
+  }} key={word.word + index} onChange={(e) => {
+    if (e.target.value === '') back(index)
+    else next(index)
+  }} onKeyDown={(e) => {
+    if (e.key === 'Backspace' && e.currentTarget.value === '') {
+      back(index)
+    }
+    else if (e.currentTarget.value !== '' && e.key !== 'Backspace') {
+      next(index)
+    }
+  }} id={word.word + index} letter={letter} />, [])
   return (
     <AnimatePresence mode='wait'>
       <motion.div key={word.word} className="flex flex-wrap p-2 gap-2">
-        {clue.map((letter, index) => <LetterInput index={index} ref={(self) => {
-          inputRefs.current[index] = self
-        }} key={word.word + index} onChange={(e) => {
-          if (e.target.value === '') back(index)
-          else next(index)
-        }} onKeyDown={(e) => {
-          if (e.key === 'Backspace' && e.currentTarget.value === '') {
-            back(index)
-          }
-          else if (e.currentTarget.value !== '' && e.key !== 'Backspace') {
-            next(index)
-          }
-        }} id={word.word + index} letter={letter} />)}
-      <SendButton key={`submit-${word.word}`} index={clue.length} submit={solve} />
+        {clue.map((letter, index) => renderInput(letter, index))}
+        <SendButton key={`submit-${word.word}`} index={clue.length} submit={solve} />
       </motion.div>
     </AnimatePresence>
   )

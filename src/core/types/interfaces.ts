@@ -1,4 +1,4 @@
-import type { Word } from "./word"
+import type { Word } from "../word"
 
 export interface WordBase {
     word:string

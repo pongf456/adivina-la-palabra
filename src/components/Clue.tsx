@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react"
+import { useEffect } from "react"
 import { useAppStore } from "../core"
 import { Icon } from '@iconify/react'
-import { AnimatePresence, motion, useAnimate } from 'motion/react'
+import { AnimatePresence, motion } from 'motion/react'
 export default function Clue() {
   const clue = useAppStore((s) => s.currentClue)
   useEffect(() => {

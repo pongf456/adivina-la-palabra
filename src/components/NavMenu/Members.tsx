@@ -1,8 +1,7 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
 import MemberItem from "./MemberItem";
-import { AnimatePresence, motion, scale } from 'motion/react'
+import { AnimatePresence, motion } from 'motion/react'
 export default function Members() {
-  const menuRef = useRef<HTMLDivElement | null>(null)
   const [open, setOpen] = useState(false)
   const handleMouseEnter = () => {
     setOpen(true);
