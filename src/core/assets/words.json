@@ -5,7 +5,8 @@
       "Es un animal grande y gris.",
       "Tiene una trompa muy larga.",
       "Puede vivir en la sabana africana o en la selva."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "guitarra",
@@ -13,7 +14,8 @@
       "Es un instrumento musical de cuerda.",
       "Se usa en muchos géneros como el rock o el flamenco.",
       "Requiere el uso de ambas manos para tocarla."
-    ]
+    ],
+    "expirationTime": 60
   },
   {
     "word": "sol",
@@ -21,7 +23,8 @@
       "Es una estrella que ilumina nuestro planeta.",
       "Nos proporciona luz y calor.",
       "Es el centro de nuestro sistema solar."
-    ]
+    ],
+    "expirationTime": 45
   },
   {
     "word": "chocolate",
@@ -29,7 +32,8 @@
       "Es un dulce muy popular.",
       "Se obtiene de la semilla del cacao.",
       "Puede ser amargo, con leche o blanco."
-    ]
+    ],
+    "expirationTime": 60
   },
   {
     "word": "ordenador",
@@ -37,7 +41,8 @@
       "Es una máquina electrónica para procesar información.",
       "Permite navegar por internet, trabajar o jugar.",
       "Puede ser de escritorio o portátil."
-    ]
+    ],
+    "expirationTime": 65
   },
   {
     "word": "libro",
@@ -45,7 +50,8 @@
       "Contiene historias, información o conocimientos.",
       "Sus páginas están encuadernadas.",
       "Se lee para aprender o entretenerse."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "cafe",
@@ -53,7 +59,8 @@
       "Es una bebida popular que se toma caliente.",
       "Se prepara con granos tostados y molidos.",
       "Muchos lo toman por la mañana para activarse."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "bicicleta",
@@ -61,7 +68,8 @@
       "Es un medio de transporte de dos ruedas.",
       "Se impulsa pedaleando.",
       "Es ecológico y bueno para la salud."
-    ]
+    ],
+    "expirationTime": 60
   },
   {
     "word": "reloj",
@@ -69,15 +77,17 @@
       "Sirve para medir el tiempo.",
       "Puede llevarse en la muñeca o estar en una pared.",
       "Tiene agujas o una pantalla digital."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
-    "word": "telefono",
+    "word": "teléfono",
     "clues": [
       "Permite la comunicación a distancia.",
       "Puede ser fijo o móvil.",
       "Hoy en día, muchos tienen acceso a internet."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "agua",
@@ -85,15 +95,17 @@
       "Es un líquido vital para la vida.",
       "Cubre gran parte de la superficie terrestre.",
       "No tiene color, sabor ni olor."
-    ]
+    ],
+    "expirationTime": 40
   },
   {
-    "word": "arbol",
+    "word": "árbol",
     "clues": [
       "Es una planta de tronco leñoso y ramas.",
       "Produce oxígeno y frutos.",
       "Forma parte de bosques y jardines."
-    ]
+    ],
+    "expirationTime": 45
   },
   {
     "word": "puerta",
@@ -101,7 +113,8 @@
       "Sirve para entrar o salir de un lugar.",
       "Puede ser de madera, metal o vidrio.",
       "Tiene bisagras y una cerradura."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "flor",
@@ -109,7 +122,8 @@
       "Es la parte más vistosa de una planta.",
       "Atrae a insectos para la polinización.",
       "A menudo se regala como muestra de afecto."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "coche",
@@ -117,7 +131,8 @@
       "Es un vehículo de cuatro ruedas.",
       "Se usa para transportar personas o carga.",
       "Necesita combustible para funcionar."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "mesa",
@@ -125,15 +140,17 @@
       "Es un mueble con una superficie plana y patas.",
       "Se usa para comer, trabajar o apoyar objetos.",
       "Puede ser de madera, metal o cristal."
-    ]
+    ],
+    "expirationTime": 45
   },
   {
     "word": "silla",
     "clues": [
       "Es un mueble diseñado para sentarse.",
-      "Tiene respaldo y, a veces, reposabrazos.",
+      "Tiene respaldo y, a veces, reposa-brazos.",
       "Puede ser de diferentes materiales y estilos."
-    ]
+    ],
+    "expirationTime": 45
   },
   {
     "word": "perro",
@@ -141,7 +158,8 @@
       "Es un animal doméstico muy leal.",
       "Es conocido como 'el mejor amigo del hombre'.",
       "Puede ladrar y mover la cola."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "gato",
@@ -149,7 +167,8 @@
       "Es un animal doméstico independiente.",
       "Le gusta cazar ratones y dormir mucho.",
       "Puede maullar y ronronear."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "casa",
@@ -157,7 +176,8 @@
       "Es una construcción donde vive una familia.",
       "Tiene habitaciones, cocina y baños.",
       "Ofrece refugio y seguridad."
-    ]
+    ],
+    "expirationTime": 45
   },
   {
     "word": "escuela",
@@ -165,7 +185,8 @@
       "Es un lugar donde los niños van a aprender.",
       "Hay maestros y alumnos.",
       "Se enseñan diversas materias."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "medico",
@@ -173,15 +194,17 @@
       "Es un profesional que cura enfermedades.",
       "Trabaja en hospitales o consultorios.",
       "Examina a los pacientes y receta medicamentos."
-    ]
+    ],
+    "expirationTime": 60
   },
   {
-    "word": "platano",
+    "word": "plátano",
     "clues": [
       "Es una fruta amarilla y alargada.",
       "Crece en racimos.",
       "Es una buena fuente de potasio."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "nube",
@@ -189,7 +212,8 @@
       "Se forma por vapor de agua en la atmósfera.",
       "Puede ser blanca o gris.",
       "A veces trae lluvia o tormentas."
-    ]
+    ],
+    "expirationTime": 45
   },
   {
     "word": "montaña",
@@ -197,7 +221,8 @@
       "Es una gran elevación natural de terreno.",
       "Puede tener picos nevados.",
       "Es un lugar para hacer senderismo o escalar."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "rio",
@@ -205,15 +230,17 @@
       "Es una corriente natural de agua dulce.",
       "Fluye hacia un mar, lago u otro río.",
       "Es hábitat de peces y otras especies."
-    ]
+    ],
+    "expirationTime": 45
   },
   {
-    "word": "oceano",
+    "word": "océano",
     "clues": [
       "Es una gran extensión de agua salada.",
       "Cubre la mayor parte del planeta.",
       "Es el hogar de ballenas y tiburones."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "estrella",
@@ -221,7 +248,8 @@
       "Es un cuerpo celeste que emite luz propia.",
       "Se ven muchas en el cielo nocturno.",
       "El Sol es una de ellas."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "luna",
@@ -229,7 +257,8 @@
       "Es el satélite natural de la Tierra.",
       "Refleja la luz del Sol.",
       "Tiene fases: llena, nueva, cuarto creciente, etc."
-    ]
+    ],
+    "expirationTime": 45
   },
   {
     "word": "nieve",
@@ -237,7 +266,8 @@
       "Es agua congelada que cae en forma de cristales.",
       "Cubre el paisaje de blanco en invierno.",
       "Sirve para esquiar o hacer muñecos."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "fuego",
@@ -245,7 +275,8 @@
       "Es una reacción química que produce luz y calor.",
       "Puede ser destructivo o útil (para cocinar).",
       "Se usa para calentar o iluminar."
-    ]
+    ],
+    "expirationTime": 45
   },
   {
     "word": "viento",
@@ -253,7 +284,8 @@
       "Es el aire en movimiento.",
       "Puede mover molinos o hacer volar cometas.",
       "A veces es suave y una brisa, otras muy fuerte."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "lluvia",
@@ -261,7 +293,8 @@
       "Es agua que cae de las nubes.",
       "Es esencial para las plantas y los cultivos.",
       "Se usa un paraguas para protegerse de ella."
-    ]
+    ],
+    "expirationTime": 45
   },
   {
     "word": "paraguas",
@@ -269,7 +302,8 @@
       "Se usa para protegerse de la lluvia o el sol.",
       "Puede plegarse para guardarlo.",
       "Tiene una varilla central y costillas."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "zapato",
@@ -277,7 +311,8 @@
       "Se usa para cubrir y proteger el pie.",
       "Hay de muchos tipos: deportivos, de vestir, sandalias.",
       "Puede tener cordones o hebillas."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "camiseta",
@@ -285,15 +320,17 @@
       "Es una prenda de vestir para la parte superior del cuerpo.",
       "Suele ser de algodón y tener mangas cortas.",
       "Es muy común y cómoda."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
-    "word": "pantalon",
+    "word": "pantalón",
     "clues": [
       "Es una prenda de vestir para las piernas.",
       "Puede ser vaquero, de tela, corto o largo.",
       "Se ajusta a la cintura."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "sombrero",
@@ -301,7 +338,8 @@
       "Se usa en la cabeza para protegerse del sol o por moda.",
       "Puede tener ala o no.",
       "Hay muchos estilos: gorra, fedora, boina."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "cuchillo",
@@ -309,7 +347,8 @@
       "Es un utensilio de cocina con hoja afilada.",
       "Sirve para cortar alimentos.",
       "Debe usarse con precaución."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "tenedor",
@@ -317,7 +356,8 @@
       "Es un utensilio con dientes o púas.",
       "Se usa para pinchar alimentos y llevarlos a la boca.",
       "Es parte de los cubiertos de mesa."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "cuchara",
@@ -325,7 +365,8 @@
       "Es un utensilio con una concavidad.",
       "Sirve para tomar líquidos o alimentos blandos.",
       "Se usa para comer sopa o postres."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "plato",
@@ -333,7 +374,8 @@
       "Es un recipiente plano o ligeramente cóncavo.",
       "Se usa para servir y comer alimentos.",
       "Puede ser de cerámica, vidrio o plástico."
-    ]
+    ],
+    "expirationTime": 45
   },
   {
     "word": "vaso",
@@ -341,15 +383,17 @@
       "Es un recipiente sin asa.",
       "Se usa para beber líquidos.",
       "Suele ser de vidrio o plástico."
-    ]
+    ],
+    "expirationTime": 45
   },
   {
-    "word": "lapiz",
+    "word": "lápiz",
     "clues": [
       "Es un instrumento para escribir o dibujar.",
       "Deja una marca de grafito.",
       "Se le saca punta cuando se gasta."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "papel",
@@ -357,7 +401,8 @@
       "Material fino hecho de celulosa.",
       "Se usa para escribir, dibujar o imprimir.",
       "Puede ser blanco o de colores."
-    ]
+    ],
+    "expirationTime": 45
   },
   {
     "word": "tijeras",
@@ -365,15 +410,17 @@
       "Es una herramienta con dos cuchillas cruzadas.",
       "Se usa para cortar papel, tela o pelo.",
       "Requiere el uso de los dedos para operarlas."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
-    "word": "boligrafo",
+    "word": "bolígrafo",
     "clues": [
       "Es un instrumento de escritura con tinta.",
       "Tiene una punta de bola que distribuye la tinta.",
       "Reemplazó a la pluma en popularidad."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "teclado",
@@ -381,15 +428,17 @@
       "Es un periférico de entrada de un ordenador.",
       "Contiene letras, números y símbolos.",
       "Se usa para escribir texto."
-    ]
+    ],
+    "expirationTime": 60
   },
   {
-    "word": "raton",
+    "word": "ratón",
     "clues": [
       "Es un periférico de entrada de un ordenador.",
       "Se mueve sobre una superficie para controlar el cursor.",
       "Tiene botones para hacer clic."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "pantalla",
@@ -397,23 +446,26 @@
       "Es la superficie donde se muestra la imagen.",
       "Puede ser de un televisor, ordenador o teléfono.",
       "Permite interactuar con la interfaz gráfica."
-    ]
+    ],
+    "expirationTime": 60
   },
   {
-    "word": "camara",
+    "word": "cámara",
     "clues": [
       "Es un dispositivo para capturar imágenes o videos.",
       "Puede ser digital o analógica.",
       "Se usa para preservar recuerdos."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
-    "word": "musica",
+    "word": "música",
     "clues": [
       "Es el arte de combinar sonidos.",
       "Se puede escuchar con instrumentos o voces.",
       "Evoca emociones y se usa para bailar."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "pelota",
@@ -421,15 +473,17 @@
       "Es un objeto esférico usado en muchos deportes.",
       "Puede ser de fútbol, baloncesto, tenis.",
       "Se patea, se lanza o se golpea."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
-    "word": "balon",
+    "word": "balón",
     "clues": [
       "Es similar a una pelota, pero a menudo más grande.",
       "Se usa en deportes como el fútbol o baloncesto.",
       "Se infla con aire."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "juego",
@@ -437,7 +491,8 @@
       "Es una actividad recreativa para divertirse.",
       "Puede tener reglas y objetivos.",
       "Hay de mesa, de cartas, de video."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "familia",
@@ -445,7 +500,8 @@
       "Es el grupo de personas unidas por parentesco.",
       "Incluye padres, hermanos, hijos, etc.",
       "Generalmente comparten un hogar."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "amigo",
@@ -453,7 +509,8 @@
       "Es una persona con la que se tiene una relación de afecto.",
       "Ofrece apoyo y compañía.",
       "Puedes compartir secretos con él o ella."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "ciudad",
@@ -461,7 +518,8 @@
       "Es un gran centro urbano con muchos edificios.",
       "Tiene calles, plazas y transporte público.",
       "Suele ser un centro económico y cultural."
-    ]
+    ],
+    "expirationTime": 60
   },
   {
     "word": "pueblo",
@@ -469,7 +527,8 @@
       "Es una localidad más pequeña que una ciudad.",
       "Generalmente tiene menos habitantes.",
       "Suele tener un ambiente más tranquilo."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "hospital",
@@ -477,7 +536,8 @@
       "Es un lugar donde se atiende a los enfermos y heridos.",
       "Trabajan médicos y enfermeras.",
       "Tiene quirófanos y salas de emergencia."
-    ]
+    ],
+    "expirationTime": 65
   },
   {
     "word": "supermercado",
@@ -485,7 +545,8 @@
       "Es una tienda grande donde se venden alimentos y productos para el hogar.",
       "Tiene diferentes pasillos y cajas.",
       "Puedes encontrar frutas, verduras, carne, etc."
-    ]
+    ],
+    "expirationTime": 70
   },
   {
     "word": "restaurante",
@@ -493,7 +554,8 @@
       "Es un establecimiento donde se preparan y sirven comidas.",
       "La gente va a comer fuera de casa.",
       "Ofrecen un menú con diversas opciones."
-    ]
+    ],
+    "expirationTime": 65
   },
   {
     "word": "aeropuerto",
@@ -501,7 +563,8 @@
       "Es un lugar donde aterrizan y despegan aviones.",
       "Tiene pistas y terminales.",
       "Es un punto de partida para viajes largos."
-    ]
+    ],
+    "expirationTime": 65
   },
   {
     "word": "tren",
@@ -509,7 +572,8 @@
       "Es un medio de transporte que viaja sobre rieles.",
       "Arrastra vagones llenos de pasajeros o carga.",
       "Puede ser de alta velocidad o de cercanías."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "autobus",
@@ -517,7 +581,8 @@
       "Es un vehículo grande para transportar muchas personas.",
       "Hace rutas fijas con paradas.",
       "Es un transporte público urbano o interurbano."
-    ]
+    ],
+    "expirationTime": 60
   },
   {
     "word": "barco",
@@ -525,7 +590,8 @@
       "Es un vehículo que navega sobre el agua.",
       "Puede ser pequeño (bote) o muy grande (crucero).",
       "Se usa para pesca, transporte o recreo."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "avion",
@@ -533,15 +599,17 @@
       "Es un vehículo que vuela por el aire.",
       "Tiene alas y motores.",
       "Se usa para viajar distancias largas rápidamente."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
-    "word": "policia",
+    "word": "policía",
     "clues": [
       "Es una fuerza de seguridad pública.",
       "Mantiene el orden y combate el crimen.",
       "Usa uniforme y, a veces, patrullas."
-    ]
+    ],
+    "expirationTime": 60
   },
   {
     "word": "bombero",
@@ -549,7 +617,8 @@
       "Es un profesional que apaga incendios.",
       "Rescata personas de accidentes o desastres.",
       "Usa una manguera y un camión especial."
-    ]
+    ],
+    "expirationTime": 60
   },
   {
     "word": "profesor",
@@ -557,7 +626,8 @@
       "Es una persona que enseña en una escuela o universidad.",
       "Comparte conocimientos con sus alumnos.",
       "Evalúa y califica el aprendizaje."
-    ]
+    ],
+    "expirationTime": 60
   },
   {
     "word": "estudiante",
@@ -565,7 +635,8 @@
       "Es una persona que asiste a una institución educativa.",
       "Aprende de los profesores y estudia.",
       "Hace tareas y exámenes."
-    ]
+    ],
+    "expirationTime": 60
   },
   {
     "word": "doctor",
@@ -573,7 +644,8 @@
       "Diagnostica y trata enfermedades.",
       "Trabaja en un hospital o clínica.",
       "Prescribe medicamentos o tratamientos."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "enfermera",
@@ -581,7 +653,8 @@
       "Asiste al médico en el cuidado de los pacientes.",
       "Administra medicamentos y realiza curas.",
       "Trabaja en hospitales, clínicas o residencias."
-    ]
+    ],
+    "expirationTime": 60
   },
   {
     "word": "artista",
@@ -589,7 +662,8 @@
       "Crea obras de arte como pinturas, esculturas o música.",
       "Expresa su creatividad.",
       "Puede trabajar con pinceles, cinceles o instrumentos."
-    ]
+    ],
+    "expirationTime": 60
   },
   {
     "word": "cantante",
@@ -597,15 +671,17 @@
       "Utiliza su voz como instrumento musical.",
       "Interpreta canciones en solitario o en grupo.",
       "Actúa en conciertos o grabaciones."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
-    "word": "bailarin",
+    "word": "bailarín",
     "clues": [
       "Expresa emociones a través del movimiento corporal.",
       "Puede practicar ballet, salsa, hip hop.",
       "Se presenta en escenarios."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "deporte",
@@ -613,7 +689,8 @@
       "Es una actividad física reglamentada.",
       "Puede ser individual o en equipo.",
       "Sirve para mantenerse en forma y competir."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "futbol",
@@ -621,7 +698,8 @@
       "Es el deporte más popular del mundo.",
       "Se juega con los pies para meter un gol.",
       "Se juega en un campo con dos porterías."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "baloncesto",
@@ -629,15 +707,17 @@
       "Es un deporte de equipo con un balón.",
       "Se encesta el balón en un aro elevado.",
       "Se juega en una cancha con canastas."
-    ]
+    ],
+    "expirationTime": 60
   },
   {
-    "word": "natacion",
+    "word": "natación",
     "clues": [
       "Es un deporte que se practica en el agua.",
       "Se usan brazos y piernas para impulsarse.",
       "Puede ser en piscina, río o mar."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "correr",
@@ -645,7 +725,8 @@
       "Es una actividad física que implica moverse rápidamente.",
       "Se puede hacer en una pista, calle o montaña.",
       "Es un ejercicio aeróbico."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "leer",
@@ -653,7 +734,8 @@
       "Es la acción de interpretar textos escritos.",
       "Se hace con libros, periódicos o pantallas.",
       "Permite adquirir conocimientos o entretenerse."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "escribir",
@@ -661,7 +743,8 @@
       "Es la acción de plasmar ideas con letras y palabras.",
       "Se usa un lápiz, bolígrafo o teclado.",
       "Se puede hacer una carta, un cuento o un informe."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "dibujar",
@@ -669,7 +752,8 @@
       "Es la acción de crear imágenes con líneas y formas.",
       "Se puede usar lápiz, carboncillo o colores.",
       "Requiere creatividad y habilidad manual."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "cocinar",
@@ -677,7 +761,8 @@
       "Es el arte de preparar alimentos para comer.",
       "Se usan ingredientes y utensilios de cocina.",
       "Puede implicar hornear, freír o hervir."
-    ]
+    ],
+    "expirationTime": 60
   },
   {
     "word": "bailar",
@@ -685,7 +770,8 @@
       "Es mover el cuerpo al ritmo de la música.",
       "Puede ser en solitario, en pareja o en grupo.",
       "Hay muchos estilos como salsa, tango o ballet."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "dormir",
@@ -693,7 +779,8 @@
       "Es un estado de reposo natural del cuerpo y la mente.",
       "Es esencial para recuperar energía.",
       "Se hace en una cama o en un sofá."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "comer",
@@ -701,7 +788,8 @@
       "Es la acción de ingerir alimentos para nutrirse.",
       "Se hace varias veces al día.",
       "Es una necesidad básica del ser humano."
-    ]
+    ],
+    "expirationTime": 45
   },
   {
     "word": "beber",
@@ -709,7 +797,8 @@
       "Es la acción de ingerir líquidos.",
       "Se usa un vaso, una taza o una botella.",
       "Es fundamental para la hidratación."
-    ]
+    ],
+    "expirationTime": 45
   },
   {
     "word": "trabajar",
@@ -717,7 +806,8 @@
       "Es la actividad que se realiza para obtener un beneficio.",
       "Puede ser remunerado o voluntario.",
       "Contribuye a la sociedad o a un proyecto."
-    ]
+    ],
+    "expirationTime": 60
   },
   {
     "word": "estudiar",
@@ -725,7 +815,8 @@
       "Es el acto de adquirir conocimientos mediante la lectura o el análisis.",
       "Se hace para aprender una materia o preparar un examen.",
       "Requiere concentración y dedicación."
-    ]
+    ],
+    "expirationTime": 60
   },
   {
     "word": "jugar",
@@ -733,7 +824,8 @@
       "Es una actividad recreativa o deportiva.",
       "Se hace para divertirse o competir.",
       "Es común en niños, pero también en adultos."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "cielo",
@@ -741,7 +833,8 @@
       "Es la bóveda azul que vemos sobre nosotros.",
       "De día tiene nubes, de noche estrellas y la luna.",
       "Es donde vuelan los pájaros y los aviones."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "tierra",
@@ -749,7 +842,8 @@
       "Es el planeta en el que vivimos.",
       "Está cubierta por agua y continentes.",
       "Es el tercer planeta desde el Sol."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "mar",
@@ -757,7 +851,8 @@
       "Es una gran masa de agua salada.",
       "Es más pequeño que un océano.",
       "Es un lugar para nadar o navegar."
-    ]
+    ],
+    "expirationTime": 45
   },
   {
     "word": "arena",
@@ -765,7 +860,8 @@
       "Son partículas pequeñas de roca o coral.",
       "Se encuentra en playas y desiertos.",
       "Se usa para construir castillos."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "piedra",
@@ -773,7 +869,8 @@
       "Es un material duro y sólido.",
       "Se encuentra en la naturaleza y se usa en construcción.",
       "Puede ser de diferentes tamaños y formas."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "madera",
@@ -781,7 +878,8 @@
       "Es un material natural que proviene de los árboles.",
       "Se usa para construir muebles, casas o papel.",
       "Es un combustible en las chimeneas."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "metal",
@@ -789,15 +887,17 @@
       "Es un material duro, brillante y conductor.",
       "Se usa para fabricar herramientas, coches o joyas.",
       "Ejemplos son el hierro, el oro o el cobre."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
-    "word": "plastico",
+    "word": "plástico",
     "clues": [
       "Es un material sintético, ligero y moldeable.",
       "Se usa para hacer envases, juguetes o tuberías.",
       "Puede ser reciclado, pero es contaminante."
-    ]
+    ],
+    "expirationTime": 60
   },
   {
     "word": "vidrio",
@@ -805,15 +905,17 @@
       "Es un material transparente y frágil.",
       "Se usa para hacer ventanas, botellas o vasos.",
       "Se fabrica a partir de arena de sílice."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
-    "word": "algodon",
+    "word": "algodón",
     "clues": [
       "Es una fibra natural suave.",
       "Se usa para fabricar ropa, toallas o gasas.",
       "Proviene de una planta."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "lana",
@@ -821,7 +923,8 @@
       "Es una fibra natural que proviene de las ovejas.",
       "Se usa para hacer ropa de abrigo como suéteres.",
       "Es suave y mantiene el calor."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "seda",
@@ -829,7 +932,8 @@
       "Es una fibra natural muy fina y brillante.",
       "Proviene de los capullos de un gusano.",
       "Se usa para fabricar ropa de lujo o pañuelos."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "oro",
@@ -837,7 +941,8 @@
       "Es un metal precioso y brillante.",
       "Se usa para hacer joyas, monedas o lingotes.",
       "Es muy valioso y no se oxida."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "plata",
@@ -845,7 +950,8 @@
       "Es un metal precioso, blanco y brillante.",
       "Se usa para hacer joyas, cubiertos o espejos.",
       "Es menos valioso que el oro."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "cobre",
@@ -853,7 +959,8 @@
       "Es un metal rojizo, muy buen conductor eléctrico.",
       "Se usa para cables, tuberías o monedas.",
       "Es dúctil y maleable."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "hierro",
@@ -861,15 +968,17 @@
       "Es un metal común y muy resistente.",
       "Se usa en la construcción, herramientas y maquinaria.",
       "Se oxida fácilmente si no se protege."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
-    "word": "azucar",
+    "word": "azúcar",
     "clues": [
       "Es un edulcorante que se extrae de la caña o la remolacha.",
       "Se usa para endulzar bebidas o postres.",
       "Es de color blanco y tiene forma de gránulos."
-    ]
+    ],
+    "expirationTime": 60
   },
   {
     "word": "sal",
@@ -877,7 +986,8 @@
       "Es un mineral usado para sazonar alimentos.",
       "Puede ser marina o de roca.",
       "Es esencial para la vida en pequeñas cantidades."
-    ]
+    ],
+    "expirationTime": 45
   },
   {
     "word": "pimienta",
@@ -885,7 +995,8 @@
       "Es una especia picante, a menudo negra o blanca.",
       "Se usa molida para condimentar comidas.",
       "Proviene de una planta trepadora."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "aceite",
@@ -893,7 +1004,8 @@
       "Es un líquido graso de origen vegetal o animal.",
       "Se usa para cocinar, aliñar o como combustible.",
       "Ejemplos son el de oliva, girasol o maíz."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "vinagre",
@@ -901,7 +1013,8 @@
       "Es un líquido ácido producido por la fermentación.",
       "Se usa para aliñar ensaladas o conservar alimentos.",
       "Puede ser de vino, manzana o arroz."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "pan",
@@ -909,7 +1022,8 @@
       "Es un alimento básico hecho de harina, agua y levadura.",
       "Se hornea y se consume en rebanadas o piezas.",
       "Puede ser blanco, integral o de centeno."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "queso",
@@ -917,7 +1031,8 @@
       "Es un alimento sólido que se obtiene de la leche.",
       "Hay muchos tipos: fresco, curado, azul.",
       "Se puede comer solo o en sándwiches y pizzas."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "huevo",
@@ -925,7 +1040,8 @@
       "Es un alimento ovalado puesto por las aves.",
       "Tiene clara y yema.",
       "Se puede freír, cocer o usar en repostería."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "leche",
@@ -933,7 +1049,8 @@
       "Es un líquido blanco producido por mamíferos.",
       "Es una bebida nutritiva, especialmente para bebés.",
       "Se usa para hacer yogur, queso y mantequilla."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "carne",
@@ -941,7 +1058,8 @@
       "Es el tejido muscular de los animales.",
       "Se consume como alimento.",
       "Puede ser de res, cerdo, pollo, etc."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "pescado",
@@ -949,7 +1067,8 @@
       "Es un animal acuático con aletas y escamas.",
       "Se captura en el mar o ríos para comer.",
       "Es una fuente de proteínas y omega-3."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "ventana",
@@ -957,7 +1076,8 @@
       "Es una abertura en una pared para dejar pasar luz o aire.",
       "Suele tener cristal y un marco.",
       "Se puede abrir y cerrar."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "espejo",
@@ -965,7 +1085,8 @@
       "Es una superficie que refleja imágenes.",
       "Se usa para verse a uno mismo.",
       "Puede ser de mano o de pared."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "cama",
@@ -973,7 +1094,8 @@
       "Es un mueble donde se duerme.",
       "Suele tener colchón, almohada y sábanas.",
       "Se encuentra en el dormitorio."
-    ]
+    ],
+    "expirationTime": 45
   },
   {
     "word": "nevera",
@@ -981,7 +1103,8 @@
       "Es un electrodoméstico que mantiene los alimentos fríos.",
       "Tiene un congelador para conservar el hielo.",
       "Se abre para guardar o sacar comida."
-    ]
+    ],
+    "expirationTime": 60
   },
   {
     "word": "lavadora",
@@ -989,7 +1112,8 @@
       "Es un electrodoméstico para limpiar la ropa.",
       "Utiliza agua y jabón.",
       "Tiene diferentes ciclos de lavado."
-    ]
+    ],
+    "expirationTime": 60
   },
   {
     "word": "horno",
@@ -997,7 +1121,8 @@
       "Es un electrodoméstico para cocinar alimentos con calor seco.",
       "Se usa para hornear pasteles, pan o asar carne.",
       "Puede ser de gas o eléctrico."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "television",
@@ -1005,7 +1130,8 @@
       "Es un electrodoméstico para ver programas y películas.",
       "Tiene una pantalla y se controla con un mando a distancia.",
       "Ofrece noticias y entretenimiento."
-    ]
+    ],
+    "expirationTime": 60
   },
   {
     "word": "radio",
@@ -1013,7 +1139,8 @@
       "Es un aparato para escuchar programas de audio.",
       "Funciona con ondas de frecuencia.",
       "Puedes sintonizar emisoras de música, noticias o charlas."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "percha",
@@ -1021,7 +1148,8 @@
       "Es un colgador para la ropa.",
       "Se usa dentro de armarios o en ganchos.",
       "Evita que la ropa se arrugue."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "bolso",
@@ -1029,7 +1157,8 @@
       "Es un accesorio para llevar objetos personales.",
       "Las mujeres suelen llevarlo al hombro o en la mano.",
       "Contiene llaves, cartera, teléfono, etc."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "cartera",
@@ -1037,7 +1166,8 @@
       "Es un estuche para guardar dinero, tarjetas e identificaciones.",
       "Se lleva en el bolsillo o en un bolso.",
       "Puede ser de cuero o tela."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "llave",
@@ -1045,7 +1175,8 @@
       "Es una herramienta para abrir o cerrar cerraduras.",
       "Suele ser metálica y tener una forma única.",
       "Las llevamos en un llavero."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "moneda",
@@ -1053,7 +1184,8 @@
       "Es una pieza de metal redonda usada como dinero.",
       "Tiene un valor específico y se usa para pagar.",
       "Puede ser de diferentes tamaños y diseños."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "billete",
@@ -1061,7 +1193,8 @@
       "Es una pieza de papel usada como dinero.",
       "Tiene un valor mayor que una moneda.",
       "Se guardan en la cartera y son de diferentes colores."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "mochila",
@@ -1069,7 +1202,8 @@
       "Es una bolsa que se lleva a la espalda.",
       "Se usa para transportar libros, ropa o equipo.",
       "Tiene tirantes y a menudo varios compartimentos."
-    ]
+    ],
+    "expirationTime": 60
   },
   {
     "word": "gafas",
@@ -1077,7 +1211,8 @@
       "Son un accesorio para mejorar la vista o proteger los ojos.",
       "Pueden tener cristales graduados o ser de sol.",
       "Se apoyan en la nariz y las orejas."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "sombrilla",
@@ -1085,7 +1220,8 @@
       "Es similar a un paraguas, pero más grande y para el sol.",
       "Se usa en la playa o terrazas para dar sombra.",
       "Tiene un mástil central que se clava o se apoya."
-    ]
+    ],
+    "expirationTime": 60
   },
   {
     "word": "toalla",
@@ -1093,7 +1229,8 @@
       "Es un trozo de tela absorbente.",
       "Se usa para secarse el cuerpo o el pelo.",
       "La usamos después de ducharnos o en la playa."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "cepillo",
@@ -1101,7 +1238,8 @@
       "Es una herramienta con cerdas.",
       "Se usa para peinar el cabello, limpiar o cepillar dientes.",
       "Hay de diferentes tamaños y durezas."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "jabón",
@@ -1109,7 +1247,8 @@
       "Es un producto que se usa para limpiar.",
       "Produce espuma con agua.",
       "Puede ser en barra o líquido."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "champú",
@@ -1117,7 +1256,8 @@
       "Es un líquido para lavar el cabello.",
       "Produce espuma y tiene un aroma agradable.",
       "Se aclara con agua."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "dientes",
@@ -1125,7 +1265,8 @@
       "Son estructuras duras en la boca para masticar.",
       "Son de color blanco y se deben cepillar.",
       "Tenemos de leche y permanentes."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "lengua",
@@ -1133,7 +1274,8 @@
       "Es un órgano muscular en la boca.",
       "Sirve para saborear, hablar y tragar.",
       "Es flexible y se puede mover en todas direcciones."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "ojo",
@@ -1141,7 +1283,8 @@
       "Es el órgano principal de la vista.",
       "Tenemos dos y nos permiten ver el mundo.",
       "Tiene pupila, iris y párpados."
-    ]
+    ],
+    "expirationTime": 45
   },
   {
     "word": "nariz",
@@ -1149,7 +1292,8 @@
       "Es la parte del cuerpo que usamos para oler.",
       "Está en el centro de la cara.",
       "También sirve para respirar."
-    ]
+    ],
+    "expirationTime": 45
   },
   {
     "word": "oreja",
@@ -1157,7 +1301,8 @@
       "Es la parte del cuerpo que usamos para oír.",
       "Tenemos dos, a cada lado de la cabeza.",
       "Podemos llevar pendientes en ella."
-    ]
+    ],
+    "expirationTime": 45
   },
   {
     "word": "boca",
@@ -1165,7 +1310,8 @@
       "Es la abertura en la cara que usamos para comer y hablar.",
       "Contiene los labios, los dientes y la lengua.",
       "Podemos sonreír o besar con ella."
-    ]
+    ],
+    "expirationTime": 45
   },
   {
     "word": "mano",
@@ -1173,7 +1319,8 @@
       "Es la extremidad del brazo con dedos.",
       "La usamos para agarrar, tocar y escribir.",
       "Tenemos dos, izquierda y derecha."
-    ]
+    ],
+    "expirationTime": 45
   },
   {
     "word": "pie",
@@ -1181,7 +1328,8 @@
       "Es la parte final de la pierna que nos permite caminar.",
       "Contiene dedos y el talón.",
       "Se cubre con calcetines y zapatos."
-    ]
+    ],
+    "expirationTime": 45
   },
   {
     "word": "cabeza",
@@ -1189,7 +1337,8 @@
       "Es la parte superior del cuerpo donde está el cerebro.",
       "Contiene la cara, el pelo, los ojos, la nariz y la boca.",
       "Nos permite pensar y percibir el mundo."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "brazo",
@@ -1197,7 +1346,8 @@
       "Es la extremidad superior del cuerpo.",
       "Va del hombro a la mano.",
       "Lo usamos para levantar, empujar o abrazar."
-    ]
+    ],
+    "expirationTime": 45
   },
   {
     "word": "pierna",
@@ -1205,15 +1355,17 @@
       "Es la extremidad inferior del cuerpo.",
       "Va de la cadera al pie.",
       "La usamos para caminar, correr y saltar."
-    ]
+    ],
+    "expirationTime": 45
   },
   {
-    "word": "corazon",
+    "word": "corazón",
     "clues": [
       "Es un órgano vital que bombea sangre.",
       "Está en el pecho y late constantemente.",
       "Se asocia con el amor y las emociones."
-    ]
+    ],
+    "expirationTime": 55
   },
   {
     "word": "cerebro",
@@ -1221,7 +1373,8 @@
       "Es el órgano principal del sistema nervioso.",
       "Está en la cabeza y nos permite pensar y sentir.",
       "Controla todas las funciones del cuerpo."
-    ]
+    ],
+    "expirationTime": 60
   },
   {
     "word": "sangre",
@@ -1229,7 +1382,8 @@
       "Es un líquido rojo que circula por el cuerpo.",
       "Transporta oxígeno y nutrientes.",
       "Sale cuando nos hacemos una herida."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "hueso",
@@ -1237,7 +1391,8 @@
       "Es una parte dura del esqueleto.",
       "Nos da soporte y protege los órganos.",
       "Si se rompe, se hace una fractura."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "piel",
@@ -1245,7 +1400,8 @@
       "Es el órgano más grande del cuerpo.",
       "Nos cubre y protege de agentes externos.",
       "Tiene diferentes tonos y texturas."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "pelo",
@@ -1253,15 +1409,17 @@
       "Son filamentos que crecen en la cabeza y el cuerpo.",
       "Puede ser liso, rizado, rubio, moreno.",
       "Se corta y se peina."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
-    "word": "naraja",
+    "word": "naranja",
     "clues": [
       "Es una fruta cítrica, redonda y de color llamativo.",
       "Es rica en vitamina C.",
       "Se puede comer entera o hacer zumo."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "manzana",
@@ -1269,7 +1427,8 @@
       "Es una fruta redonda, dulce y crujiente.",
       "Puede ser roja, verde o amarilla.",
       "Es común decir que 'una al día al médico aleja'."
-    ]
+    ],
+    "expirationTime": 50
   },
   {
     "word": "uva",
@@ -1277,54 +1436,7 @@
       "Es una fruta pequeña que crece en racimos.",
       "Puede ser verde o morada.",
       "Se usa para hacer vino."
-    ]
-  },
-  {
-    "word": "fresa",
-    "clues": [
-      "Es una fruta pequeña, roja y dulce.",
-      "Tiene pequeñas semillas por fuera.",
-      "Es popular en postres y mermeladas."
-    ]
-  },
-  {
-    "word": "pera",
-    "clues": [
-      "Es una fruta dulce con forma de lágrima.",
-      "Tiene una textura jugosa y granulosa.",
-      "Puede ser verde o amarilla."
-    ]
-  },
-  {
-    "word": "limon",
-    "clues": [
-      "Es una fruta cítrica amarilla y muy ácida.",
-      "Se usa para aderezar comidas o hacer limonada.",
-      "Tiene mucha vitamina C."
-    ]
-  },
-  {
-    "word": "zanahoria",
-    "clues": [
-      "Es una verdura de raíz, de color naranja.",
-      "Es buena para la vista.",
-      "Se puede comer cruda o cocida."
-    ]
-  },
-  {
-    "word": "tomate",
-    "clues": [
-      "Es una fruta roja, aunque se usa como verdura.",
-      "Es redondo y jugoso.",
-      "Se usa en ensaladas, salsas o gazpacho."
-    ]
-  },
-  {
-    "word": "patata",
-    "clues": [
-      "Es una verdura de tubérculo, muy versátil.",
-      "Se usa para hacer papas fritas, puré o tortilla.",
-      "Crece bajo tierra."
-    ]
+    ],
+    "expirationTime": 50
   }
 ]

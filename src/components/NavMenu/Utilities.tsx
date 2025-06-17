@@ -1,7 +1,8 @@
 import { Icon } from '@iconify/react'
 import { useAppStore } from '../../core'
 import { useCallback, useEffect, useMemo } from 'react'
-import { useAnimate, motion } from 'motion/react'
+import { useAnimate } from 'motion/react'
+import Timer from './Timer'
 export default function Utilities() {
   const store = useAppStore()
   const clueDisabled = useMemo(() => (!store.currentWord || store.currentClue) ? true : false, [store])
@@ -17,11 +18,11 @@ export default function Utilities() {
         display: 'none'
       }, { duration: 1, ease: "easeOut" })
         .then(async () => {
-          await animate(scope.current, { width: 40,opacity:.7 }, { duration: .6 })
+          await animate(scope.current, { width: 40, opacity: .7 }, { duration: .6 })
         })
     } else {
 
-      animate(scope.current, { width: 80,opacity:1 }, { duration: .6 })
+      animate(scope.current, { width: 80, opacity: 1 }, { duration: .6 })
         .then(async () => {
           await animate("div", {
             opacity: 1,
@@ -31,9 +32,10 @@ export default function Utilities() {
     }
   }, [clueDisabled]);
   return (
-    <div className='m-2 self-center'>
+    <div className='m-2 self-center flex gap-1 items-center'>
+      <Timer />
       <button ref={scope} onClick={generateClue} disabled={clueDisabled} className=' overflow-hidden py-1 px-2 cursor-pointer rounded-xl mx-1 bg-accent-red/90 active:bg-accent-red flex gap-2 transition-colors text-background-light'>
-        <Icon icon="mdi:lightbulb" className='text-2xl '  />
+        <Icon icon="mdi:lightbulb" className='text-2xl ' />
         <div>
           <span className='font-inter text-sm'>Pista</span>
         </div>

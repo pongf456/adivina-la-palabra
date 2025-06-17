@@ -5,6 +5,7 @@ import type { WordBase } from "./types/interfaces"
 
 export class Word {
     word: string
+    expirationTime: number
     clues: string[]
     get splitted() {
         return this.word.split('')
@@ -19,6 +20,7 @@ export class Word {
     }
     constructor(data: WordBase) {
         this.word = Word.normalizeAndRemoveAccents(data.word)
+        this.expirationTime = data.expirationTime
         this.clues = data.clues
     }
     compare(other: string | string[]): boolean {

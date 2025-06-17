@@ -1,10 +1,11 @@
 import type { Word } from "../word"
 
 export interface WordBase {
-    word:string
-    clues:string[]
+    word: string
+    expirationTime: number
+    clues: string[]
 }
 export interface AppStore {
-    currentWord:Word | undefined
-    currentClue:string | undefined
+    currentWord: Word | undefined
+    currentClue: string | undefined
 }

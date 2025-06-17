@@ -14,12 +14,18 @@ const LetterInput = forwardRef<HTMLInputElement, Properties>(function letterInpu
   const valid = useMemo(() => currentWord?.isIndex(value, index), [value, index])
   return (
     <motion.input
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
+      initial={{
+        opacity: 0,
+        y: -10
+      }}
+      animate={{
+        opacity: 1,
+        y:0
+      }}
       exit={{
         opacity: 0
       }}
-      transition={{delay: 0.2 * index}}
+      transition={{ delay: 0.2 * index }}
       onChange={(e) => {
         setValue(e.target.value)
         if (onChange) onChange(e)

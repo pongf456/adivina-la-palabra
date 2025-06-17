@@ -14,8 +14,8 @@ export default function Starter() {
                 await animate(scope.current, {
                     width: 40,
                     height: 40,
-                },{
-                    ease:'anticipate'
+                }, {
+                    ease: 'anticipate'
                 })
                 useAppStore.setState({ currentWord: new Word(WordManager.getRandomWord()) })
             })
@@ -26,8 +26,12 @@ export default function Starter() {
     }, [])
     return (
         <AnimatePresence mode='wait'>
-            {word ? (<WordInput onSuccess={start} word={word} />) :
-                <motion.button exit={{ y: 30, opacity: 0 }} ref={scope} key={'start-button'} onClick={start} className='flex px-2 py-1 text-2xl items-center cursor-pointer hover:bg-accent-red bg-accent-red/80 active:bg-accent-red transition-colors font-inter font-bold text-background-light rounded-md shadow-sm'>
+            {word ? (
+                <motion.div exit={{ opacity: 0 }}>
+                    <WordInput onSuccess={start} word={word} />
+                </motion.div>
+            ) :
+                <motion.button exit={{ y: 30, opacity: 0 }} initial={{ y: 30, opacity: 0 }} animate={{ y: 0, opacity: 1 }} ref={scope} key={'start-button'} onClick={start} className='flex px-2 py-1 text-2xl items-center cursor-pointer hover:bg-accent-red bg-accent-red/80 active:bg-accent-red transition-colors font-inter font-bold text-background-light rounded-md shadow-sm'>
                     <span>Iniciar</span>
                     <Icon icon="mdi:play" className='text-4xl d' />
                 </motion.button>
