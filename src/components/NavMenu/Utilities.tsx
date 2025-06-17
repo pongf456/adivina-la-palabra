@@ -1,17 +1,20 @@
 import { Icon } from '@iconify/react'
 import { useAppStore } from '../../core'
-import { useCallback, useEffect, useMemo } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useAnimate } from 'motion/react'
 import Timer from './Timer'
 export default function Utilities() {
   const store = useAppStore()
   const clueDisabled = useMemo(() => (!store.currentWord || store.currentClue) ? true : false, [store])
+  const [animating,setAnimating] = useState(false)
   const [scope, animate] = useAnimate<HTMLButtonElement>()
   const generateClue = useCallback(() => {
     useAppStore.setState({ currentClue: store.currentWord?.obtainClue() })
+    navigator.vibrate(200)
   }, [store])
   useEffect(() => {
     // Si clueDisabled es true, animar para ocultar y luego remover
+    setAnimating(true)
     if (clueDisabled) {
       animate("div", {
         opacity: 0,
@@ -19,6 +22,7 @@ export default function Utilities() {
       }, { duration: 1, ease: "easeOut" })
         .then(async () => {
           await animate(scope.current, { width: 40, opacity: .7 }, { duration: .6 })
+          setAnimating(false)
         })
     } else {
 
@@ -28,13 +32,14 @@ export default function Utilities() {
             opacity: 1,
             display: 'inline-block'
           }, { duration: 1, ease: "easeIn" })
+          setAnimating(false)
         })
     }
   }, [clueDisabled]);
   return (
     <div className='m-2 self-center flex gap-1 items-center'>
       <Timer />
-      <button ref={scope} onClick={generateClue} disabled={clueDisabled} className=' overflow-hidden py-1 px-2 cursor-pointer rounded-xl mx-1 bg-accent-red/90 active:bg-accent-red flex gap-2 transition-colors text-background-light'>
+      <button ref={scope} onClick={generateClue} disabled={clueDisabled || animating} className=' overflow-hidden py-1 px-2 cursor-pointer rounded-xl mx-1 bg-accent-red/90 active:bg-accent-red flex gap-2 transition-colors text-background-light'>
         <Icon icon="mdi:lightbulb" className='text-2xl ' />
         <div>
           <span className='font-inter text-sm'>Pista</span>

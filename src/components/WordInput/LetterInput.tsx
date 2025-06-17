@@ -1,16 +1,16 @@
 import clsx from "clsx"
 import React, { forwardRef, useMemo, useState } from "react"
-import { useAppStore } from "../../core"
+import { useAppStore, type Letter } from "../../core"
 import { motion, type MotionProps } from 'motion/react'
 type MotionInputProps = React.ComponentPropsWithoutRef<'input'> & MotionProps;
 interface Properties extends MotionInputProps {
-  letter: string,
+  letter: Letter,
   index: number
 }
 const LetterInput = forwardRef<HTMLInputElement, Properties>(function letterInput({ letter, index, onChange, ...props }, ref) {
   const currentWord = useAppStore((s) => s.currentWord)
-  const isCompleted = useMemo(() => !letter.match(' '), [letter])
-  const [value, setValue] = useState(letter)
+  const isCompleted = useMemo(() => letter !== undefined, [letter])
+  const [value, setValue] = useState(letter ?? '')
   const valid = useMemo(() => currentWord?.isIndex(value, index), [value, index])
   return (
     <motion.input

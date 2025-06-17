@@ -1,5 +1,4 @@
-// Word = Palabra
-
+import type { Letter } from "./types"
 import { HideLevels } from "./types/enums"
 import type { WordBase } from "./types/interfaces"
 
@@ -27,14 +26,14 @@ export class Word {
         if (Array.isArray(other)) return Word.normalizeAndRemoveAccents(other.join('')) === this.word
         return Word.normalizeAndRemoveAccents(other) === this.word
     }
-    private hide(length: number) {
-        let wordToReturn = this.splitted
+    private hide(length: number):Letter[] {
+        let wordToReturn:Letter[] = this.splitted
         for (let i = 1; i <= length; i++) {
-            wordToReturn[Math.round(Math.random() * wordToReturn.length - 1)] = ' '
+            wordToReturn[Math.round(Math.random() * wordToReturn.length - 1)] = undefined
         }
-        return wordToReturn.join('')
+        return wordToReturn
     }
-    obtainWordHidden(level: HideLevels): string {
+    obtainWordHidden(level: HideLevels): Letter[] {
         switch (level) {
             case HideLevels.low:
                 return this.hide(Math.round((10 / 100) * this.word.length))
