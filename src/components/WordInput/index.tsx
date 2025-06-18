@@ -1,11 +1,11 @@
-import  { useCallback, useMemo, useRef, } from "react"
+import { useCallback, useMemo, useRef, } from "react"
 import { HideLevels, Word, type Letter } from "../../core"
 import LetterInput from "./LetterInput"
 import { AnimatePresence, motion } from 'motion/react'
 import SendButton from "./SendButton"
 interface Properties {
   word: Word,
-  onSuccess?: () => void
+  onSuccess?: (letters: string[]) => void
 }
 export default function WordInput({ word, onSuccess }: Properties) {
   const wordHidden = useMemo(() => word.obtainWordHidden(HideLevels.high), [word])
@@ -38,7 +38,7 @@ export default function WordInput({ word, onSuccess }: Properties) {
       else return ''
     })
     if (word.compare(letters) && onSuccess) {
-      onSuccess()
+      onSuccess(letters)
       return true
     }
     else return false

@@ -10,11 +10,12 @@ export const useAppStore = create<GameController>((set, get) => ({
     currentRecord: 0,
     gameStatus: 'idle',
     complete(other) {
-        if (this.currentWord) {
-            if (this.currentWord.compare(other)) {
+        const currentWord = get().currentWord
+        if (currentWord) {
+            if (currentWord.compare(other)) {
                 set((current) => ({
-                    currentRecord: current.currentRecord++,
-                    maxRecord: current.currentRecord > current.maxRecord ? current.currentRecord : current.maxRecord,
+                    currentRecord: current.currentRecord + 1,
+                    maxRecord: (current.currentRecord + 1) > current.maxRecord ? current.currentRecord + 1 : current.maxRecord,
                     currentWord: new Word(WordManager.getRandomWord()),
                     currentClue: undefined
                 }))

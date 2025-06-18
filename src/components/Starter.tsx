@@ -5,7 +5,7 @@ import { Icon } from '@iconify/react'
 import { AnimatePresence, motion, useAnimate } from 'motion/react'
 import clsx from 'clsx'
 export default function Starter() {
-    const { currentWord, gameStatus, start } = useAppStore((s) => s)
+    const { currentWord, gameStatus, start, complete } = useAppStore((s) => s)
     const [scope, animate] = useAnimate<HTMLButtonElement>()
     const startCallback = useCallback(() => {
         if (scope.current) {
@@ -25,11 +25,14 @@ export default function Starter() {
             start()
         }
     }, [])
+    const successCallback = useCallback((letters: string[]) => {
+        complete(letters)
+    }, [])
     return (
         <AnimatePresence mode='wait'>
             {currentWord ? (
                 <motion.div className={clsx(gameStatus !== 'running' && 'pointer-events-none')} exit={{ opacity: 0 }}>
-                    <WordInput onSuccess={startCallback} word={currentWord} />
+                    <WordInput onSuccess={successCallback} word={currentWord} />
                 </motion.div>
             ) :
                 <motion.button exit={{ y: 30, opacity: 0 }} initial={{ y: 30, opacity: 0 }} animate={{ y: 0, opacity: 1 }} ref={scope} key={'start-button'} onClick={startCallback} className='flex px-2 py-1 text-2xl items-center cursor-pointer hover:bg-accent-red bg-accent-red/80 active:bg-accent-red transition-colors font-inter font-bold text-background-light rounded-md shadow-sm'>
