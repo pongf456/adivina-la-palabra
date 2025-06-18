@@ -3,23 +3,27 @@ import { useAppStore } from "../../core"
 import { useAnimate } from "motion/react"
 
 export default function Timer() {
-    const word = useAppStore((store) => store.currentWord)
+    const { currentWord, restart, gameStatus } = useAppStore((store) => store)
     const [seconds, setSeconds] = useState(0)
     const [scope, animate] = useAnimate<HTMLDivElement>()
     useEffect(() => {
-        if (!word) return
-        setSeconds(word.expirationTime)
-        const interval = setInterval(() => {
-            setSeconds((lastSecond) => lastSecond - 1)
-        }, 1000);
-        return () => clearInterval(interval)
-    }, [word])
+        if (!currentWord) return
+        setSeconds(currentWord.expirationTime)
+    }, [currentWord])
     useEffect(() => {
-        if (seconds <= 0) useAppStore.setState({ currentWord: undefined })
+        if (currentWord && gameStatus === 'running') {
+            const interval = setInterval(() => {
+                setSeconds((lastSecond) => lastSecond - 1)
+            }, 1000);
+            return () => clearInterval(interval)
+        }
+    }, [currentWord, gameStatus])
+    useEffect(() => {
+        if (seconds <= 0) restart()
         if (scope.current) {
             animate(scope.current, {
                 scale: [1, 1.1, 1],
-                color: ['#E74C3C','#7F8C8D']
+                color: ['#E74C3C', '#7F8C8D']
             }, {
                 ease: 'backOut'
             })
@@ -36,7 +40,7 @@ export default function Timer() {
         return `${formattedMinutes}:${formattedSeconds}`;
     }, [seconds])
     return (
-        word && <div ref={scope} className="font-inter font-bold text-xs">
+        currentWord && <div ref={scope} className="font-inter font-bold text-xs">
             <span>{parsedSeconds}</span>
         </div>
     )

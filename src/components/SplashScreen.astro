@@ -7,11 +7,11 @@ import { Icon } from "astro-icon/components";
   <Icon name="mdi:loading" id="loading" size={30} />
 </div>
 
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
+<script >
+  window.addEventListener("load", () => {
     setTimeout(() => {
       document.querySelector("#container")?.classList.toggle("disabled");
-    }, 4000);
+    }, 2000);
   });
 </script>
 <style>

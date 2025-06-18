@@ -5,7 +5,7 @@ import { useAnimate } from 'motion/react'
 import Timer from './Timer'
 export default function Utilities() {
   const store = useAppStore()
-  const clueDisabled = useMemo(() => (!store.currentWord || store.currentClue) ? true : false, [store])
+  const clueDisabled = useMemo(() => (!store.currentWord || store.currentClue || store.gameStatus !== 'running') ? true : false, [store])
   const [animating,setAnimating] = useState(false)
   const [scope, animate] = useAnimate<HTMLButtonElement>()
   const generateClue = useCallback(() => {
