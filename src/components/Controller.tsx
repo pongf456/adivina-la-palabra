@@ -3,7 +3,7 @@ import { useAppStore } from "../core"
 import { Icon } from '@iconify/react'
 import { AnimatePresence, motion } from "motion/react"
 export default function Controller() {
-    const { gameStatus, maxRecord } = useAppStore()
+    const { gameStatus, currentRecord } = useAppStore()
     const changeStatus = useCallback(() => {
         if (gameStatus === 'running') useAppStore.setState({ gameStatus: 'paused' })
         else useAppStore.setState({ gameStatus: 'running' })
@@ -13,7 +13,14 @@ export default function Controller() {
         <section className="w-full pb-2 px-2 h-10 flex gap-2 items-center justify-between">
             <div className="flex  gap-1 items-center justify-center text-secondary-200">
                 <Icon icon="mdi:star-three-points" className=" text-2xl" />
-                <span className="text-sm font-inter font-bold">{maxRecord}</span>
+                <AnimatePresence mode="popLayout">
+                    <motion.span
+                        key={currentRecord}
+                        initial={{ y: -10, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        exit={{ y: 10, opacity: 0 }}
+                        className="text-sm font-inter font-bold">{currentRecord}</motion.span>
+                </AnimatePresence>
             </div>
             <AnimatePresence>
                 {

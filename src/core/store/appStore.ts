@@ -6,7 +6,7 @@ import { Word } from "../word";
 export const useAppStore = create<GameController>((set, get) => ({
     currentWord: undefined,
     currentClue: undefined,
-    maxRecord: 0,
+    record: 0,
     currentRecord: 0,
     gameStatus: 'idle',
     complete(other) {
@@ -15,7 +15,6 @@ export const useAppStore = create<GameController>((set, get) => ({
             if (currentWord.compare(other)) {
                 set((current) => ({
                     currentRecord: current.currentRecord + 1,
-                    maxRecord: (current.currentRecord + 1) > current.maxRecord ? current.currentRecord + 1 : current.maxRecord,
                     currentWord: new Word(WordManager.getRandomWord()),
                     currentClue: undefined
                 }))
@@ -24,12 +23,13 @@ export const useAppStore = create<GameController>((set, get) => ({
         }
     },
     restart() {
-        set({
+        set((store) => ({
             currentWord: undefined,
             currentClue: undefined,
             gameStatus: 'idle',
-            currentRecord: 0
-        })
+            currentRecord: 0,
+            record: store.currentRecord,
+        }))
     },
     start() {
         set({

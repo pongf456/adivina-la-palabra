@@ -39,6 +39,7 @@ export default function WordInput({ word, onSuccess }: Properties) {
     })
     if (word.compare(letters) && onSuccess) {
       onSuccess(letters)
+      navigator.vibrate(50)
       return true
     }
     else return false

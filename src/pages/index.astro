@@ -3,11 +3,14 @@ import Clue from "../components/Clue";
 import Starter from "../components/Starter";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Controller from '../components/Controller'
+import GameOver from "../components/GameOver";
 ---
 
 <BaseLayout>
   <main>
-    <section id="up"></section>
+    <section id="up">
+      <GameOver client:only/>
+    </section>
     <div>
       <Starter client:only />
       <Clue client:only />
@@ -28,6 +31,8 @@ import Controller from '../components/Controller'
   #up, #down {
     flex: auto;
     display: flex;
+    align-items: center;
+    justify-content: center;
   }
   #down {
     align-items: end;

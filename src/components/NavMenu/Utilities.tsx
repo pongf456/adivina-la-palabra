@@ -6,7 +6,7 @@ import Timer from './Timer'
 export default function Utilities() {
   const store = useAppStore()
   const clueDisabled = useMemo(() => (!store.currentWord || store.currentClue || store.gameStatus !== 'running') ? true : false, [store])
-  const [animating,setAnimating] = useState(false)
+  const [animating, setAnimating] = useState(false)
   const [scope, animate] = useAnimate<HTMLButtonElement>()
   const generateClue = useCallback(() => {
     useAppStore.setState({ currentClue: store.currentWord?.obtainClue() })
@@ -39,7 +39,7 @@ export default function Utilities() {
   return (
     <div className='m-2 self-center flex gap-1 items-center'>
       <Timer />
-      <button ref={scope} onClick={generateClue} disabled={clueDisabled || animating} className=' overflow-hidden py-1 px-2 cursor-pointer rounded-xl mx-1 bg-accent-red/90 active:bg-accent-red flex gap-2 transition-colors text-background-light'>
+      <button style={{ width: 80 }} ref={scope} onClick={generateClue} disabled={clueDisabled || animating} className=' overflow-hidden py-1 px-2 cursor-pointer rounded-xl mx-1 bg-accent-red/90 active:bg-accent-red flex gap-2 transition-colors text-background-light'>
         <Icon icon="mdi:lightbulb" className='text-2xl ' />
         <div>
           <span className='font-inter text-sm'>Pista</span>

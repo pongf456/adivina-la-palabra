@@ -15,7 +15,7 @@ export default function Members() {
         <span>Miembros</span>
       </button>
       <AnimatePresence>
-        {open && <motion.div className="absolute top-full w-max gap-y-1 left-0 flex flex-col border-2 border-secondary-100 bg-primary-100 p-1 pr-4 rounded-md"
+        {open && <motion.div className="absolute z-40 top-full w-max gap-y-1 left-0 flex flex-col border-2 border-secondary-100 bg-primary-100 p-1 pr-4 rounded-md"
           initial={{
             opacity: 0,
             left: -10

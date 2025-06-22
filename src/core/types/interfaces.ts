@@ -10,7 +10,7 @@ export interface GameController {
     currentWord: Word | undefined
     currentClue: string | undefined
     gameStatus: Status
-    maxRecord: number
+    record: number
     currentRecord: number
     complete(...params: Parameters<typeof Word.prototype.compare>): void
     start(): void
